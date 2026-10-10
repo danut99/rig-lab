@@ -3,5 +3,5 @@ out/
 /*
 !/.gitignore
 !/tempest-studio/
-# Modelele generate (1,8 GB): se urcă separat, în pași sub limita de 2 GB pe push.
+# Modelele generate (1,8 GB) rămân locale: se refac din source/ cu `npm ci && npm run build` în tempest-studio.
 /tempest-studio/public/models/
