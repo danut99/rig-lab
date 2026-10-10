@@ -1,0 +1,311 @@
+{
+  "rigCheck": {
+    "bones": 22,
+    "slots": 3,
+    "overlay": true
+  },
+  "results": [
+    {
+      "animation": "idle",
+      "phase": 0,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.00000953849509588866,
+      "tips": {
+        "farWing": 622.9999737269211,
+        "nearWing": -327.0000032908652
+      }
+    },
+    {
+      "animation": "idle",
+      "phase": 0.25,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.000009538495095517783,
+      "tips": {
+        "farWing": 622.9999737269211,
+        "nearWing": -327.0000032908652
+      }
+    },
+    {
+      "animation": "idle",
+      "phase": 0.5,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.00000953849509588866,
+      "tips": {
+        "farWing": 622.9999737269211,
+        "nearWing": -327.0000032908652
+      }
+    },
+    {
+      "animation": "idle",
+      "phase": 0.75,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.000009538972578544662,
+      "tips": {
+        "farWing": 622.9999777264987,
+        "nearWing": -326.9999992910301
+      }
+    },
+    {
+      "animation": "idle",
+      "phase": 0.999,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.0000608334276546703,
+      "tips": {
+        "farWing": 622.7852367270499,
+        "nearWing": -327.2147260206653
+      }
+    },
+    {
+      "animation": "walk",
+      "phase": 0,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.00000953849509588866,
+      "tips": {
+        "farWing": 622.9999737269211,
+        "nearWing": -327.0000032908652
+      }
+    },
+    {
+      "animation": "walk",
+      "phase": 0.25,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.000009864495857116654,
+      "tips": {
+        "farWing": 665.7198554257071,
+        "nearWing": -284.2801348166585
+      }
+    },
+    {
+      "animation": "walk",
+      "phase": 0.5,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.00001166190957698736,
+      "tips": {
+        "farWing": 562.6497790298193,
+        "nearWing": -387.350172849153
+      }
+    },
+    {
+      "animation": "walk",
+      "phase": 0.75,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.000009538495123464708,
+      "tips": {
+        "farWing": 622.512247217103,
+        "nearWing": -327.48771472393526
+      }
+    },
+    {
+      "animation": "walk",
+      "phase": 0.999,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.00000953849508932658,
+      "tips": {
+        "farWing": 622.9999737269211,
+        "nearWing": -327.00000329086527
+      }
+    },
+    {
+      "animation": "attack",
+      "phase": 0,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.00000953849509588866,
+      "tips": {
+        "farWing": 622.9999737269211,
+        "nearWing": -327.0000032908652
+      }
+    },
+    {
+      "animation": "attack",
+      "phase": 0.25,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.000013823089199382928,
+      "tips": {
+        "farWing": 665.5924325044322,
+        "nearWing": -284.40754752287404
+      }
+    },
+    {
+      "animation": "attack",
+      "phase": 0.5,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.000009825481585022842,
+      "tips": {
+        "farWing": 604.1104146393967,
+        "nearWing": -345.8895676031699
+      }
+    },
+    {
+      "animation": "attack",
+      "phase": 0.75,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.000009538495133314529,
+      "tips": {
+        "farWing": 623.0898175163907,
+        "nearWing": -326.910145889362
+      }
+    },
+    {
+      "animation": "attack",
+      "phase": 0.999,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.00000953849509588866,
+      "tips": {
+        "farWing": 622.9999737269211,
+        "nearWing": -327.0000032908652
+      }
+    },
+    {
+      "animation": "ultimate",
+      "phase": 0,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.00000953849509588866,
+      "tips": {
+        "farWing": 622.9999737269211,
+        "nearWing": -327.0000032908652
+      }
+    },
+    {
+      "animation": "ultimate",
+      "phase": 0.25,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.00001163255432980216,
+      "tips": {
+        "farWing": 568.0266552637038,
+        "nearWing": -381.97333587536355
+      }
+    },
+    {
+      "animation": "ultimate",
+      "phase": 0.5,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.00001190694665011214,
+      "tips": {
+        "farWing": 622.9999717316857,
+        "nearWing": -327.00000049445237
+      }
+    },
+    {
+      "animation": "ultimate",
+      "phase": 0.75,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.000009763147609066627,
+      "tips": {
+        "farWing": 618.0223110810468,
+        "nearWing": -331.9776719203862
+      }
+    },
+    {
+      "animation": "ultimate",
+      "phase": 0.999,
+      "neck": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximumGap": 0.000009546323173739871,
+      "tips": {
+        "farWing": 623.3129442157845,
+        "nearWing": -326.6870265858637
+      }
+    }
+  ],
+  "mobileOverflow": false,
+  "pageErrors": []
+}

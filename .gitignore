@@ -1,0 +1,7 @@
+out/
+# Repo-ul ține doar Tempest Studio (restul rig-lab rămâne local).
+/*
+!/.gitignore
+!/tempest-studio/
+# Modelele generate (1,8 GB): se urcă separat, în pași sub limita de 2 GB pe push.
+/tempest-studio/public/models/

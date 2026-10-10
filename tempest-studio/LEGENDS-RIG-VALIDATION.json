@@ -1,0 +1,146 @@
+[
+  {
+    "id": "calderox",
+    "bones": 29,
+    "frames": 669,
+    "flipped": 0,
+    "emptyFlipped": 0,
+    "minAreaRatio": 0.10499077070350596,
+    "worst": {
+      "animation": "walk",
+      "time": 1.1,
+      "pixel": [
+        1040,
+        1216
+      ]
+    },
+    "bounds": {
+      "minX": -671.1968682044711,
+      "minY": 46.76280833234655,
+      "maxX": 619.7307237742937,
+      "maxY": 896.6833774366617
+    },
+    "errors": [],
+    "ok": true
+  },
+  {
+    "id": "abyssarion",
+    "bones": 23,
+    "frames": 641,
+    "flipped": 0,
+    "emptyFlipped": 0,
+    "minAreaRatio": 0.1461557166068244,
+    "worst": {
+      "animation": "ultimate",
+      "time": 0.5,
+      "pixel": [
+        1784,
+        976
+      ]
+    },
+    "bounds": {
+      "minX": -695.5466156842892,
+      "minY": -11.286373109986151,
+      "maxX": 687.3855209573729,
+      "maxY": 930.6409424060812
+    },
+    "errors": [],
+    "ok": true
+  },
+  {
+    "id": "geolithar",
+    "bones": 22,
+    "frames": 881,
+    "flipped": 0,
+    "emptyFlipped": 0,
+    "minAreaRatio": 0.10666559261875887,
+    "worst": {
+      "animation": "ultimate",
+      "time": 1.8,
+      "pixel": [
+        920,
+        1048
+      ]
+    },
+    "bounds": {
+      "minX": -619.9983289082431,
+      "minY": -35.14963562292367,
+      "maxX": 609.7262302749863,
+      "maxY": 929.0794413810496
+    },
+    "errors": [],
+    "ok": true
+  },
+  {
+    "id": "viridraxis",
+    "bones": 37,
+    "frames": 927,
+    "flipped": 0,
+    "emptyFlipped": 163,
+    "minAreaRatio": 0.16090413501194667,
+    "worst": {
+      "animation": "attack",
+      "time": 3.4,
+      "pixel": [
+        1432,
+        1400
+      ]
+    },
+    "bounds": {
+      "minX": -605.4046624617924,
+      "minY": 20.75571586218635,
+      "maxX": 683.4813038933523,
+      "maxY": 911.5011500289576
+    },
+    "errors": [],
+    "ok": true
+  },
+  {
+    "id": "glaciomorth",
+    "bones": 23,
+    "frames": 682,
+    "flipped": 0,
+    "emptyFlipped": 0,
+    "minAreaRatio": 0.16798395094026763,
+    "worst": {
+      "animation": "ultimate",
+      "time": 0.9833333333333333,
+      "pixel": [
+        1112,
+        1144
+      ]
+    },
+    "bounds": {
+      "minX": -679.4531288912968,
+      "minY": -1.370540231972005,
+      "maxX": 687.3161757165612,
+      "maxY": 909.3532604372097
+    },
+    "errors": [],
+    "ok": true
+  },
+  {
+    "id": "fulminarch",
+    "bones": 34,
+    "frames": 808,
+    "flipped": 0,
+    "emptyFlipped": 0,
+    "minAreaRatio": 0.4038299082876355,
+    "worst": {
+      "animation": "ultimate",
+      "time": 2.033333333333333,
+      "pixel": [
+        416,
+        808
+      ]
+    },
+    "bounds": {
+      "minX": -619.6071067897532,
+      "minY": -4.542204590322932,
+      "maxX": 613.4991253706711,
+      "maxY": 913.4835618005009
+    },
+    "errors": [],
+    "ok": true
+  }
+]

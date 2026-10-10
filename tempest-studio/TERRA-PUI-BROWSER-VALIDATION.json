@@ -1,0 +1,157 @@
+{
+  "model": {
+    "model": "terratitan-pui",
+    "bones": 22,
+    "slots": 13
+  },
+  "poses": 18,
+  "results": [
+    {
+      "animation": "idle",
+      "phase": 0,
+      "maxGap": 8.038873388460929e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.2,
+      "maxGap": 5.684341886080802e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.4,
+      "maxGap": 5.695433295429594e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.6,
+      "maxGap": 8.987733679556355e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.8,
+      "maxGap": 4.263256414560601e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.999,
+      "maxGap": 6.355287432313019e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0,
+      "maxGap": 2.929642751054232e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.2,
+      "maxGap": 5.728578676879116e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.4,
+      "maxGap": 8.038873388460929e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.6,
+      "maxGap": 8.038873388460929e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.8,
+      "maxGap": 6.355287432313019e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.999,
+      "maxGap": 8.038873388460929e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0,
+      "maxGap": 8.038873388460929e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.2,
+      "maxGap": 1.1368683772161603e-13,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.4,
+      "maxGap": 8.038873388460929e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.6,
+      "maxGap": 5.859285502108464e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.8,
+      "maxGap": 8.038873388460929e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.999,
+      "maxGap": 8.038873388460929e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 784,
+      "continuousSurface": true
+    }
+  ],
+  "mobileOverflow": false,
+  "errors": [],
+  "speciesSwitch": true
+}

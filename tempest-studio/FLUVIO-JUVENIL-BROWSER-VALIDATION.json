@@ -1,0 +1,157 @@
+{
+  "model": {
+    "model": "fluviovenator-juvenil",
+    "bones": 23,
+    "slots": 7
+  },
+  "poses": 18,
+  "results": [
+    {
+      "animation": "idle",
+      "phase": 0,
+      "maxGap": 6.355287432313019e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.2,
+      "maxGap": 5.684341886080802e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.4,
+      "maxGap": 1.1368683772161603e-13,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.6,
+      "maxGap": 1.1368683772161603e-13,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.8,
+      "maxGap": 5.684341886080802e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.999,
+      "maxGap": 6.355287432313019e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0,
+      "maxGap": 5.684341886080802e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.2,
+      "maxGap": 1.2710574864626038e-13,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.4,
+      "maxGap": 1.1718571004216928e-13,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.6,
+      "maxGap": 6.355287432313019e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.8,
+      "maxGap": 8.038873388460929e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.999,
+      "maxGap": 8.038873388460929e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0,
+      "maxGap": 6.355287432313019e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.2,
+      "maxGap": 5.684341886080802e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.4,
+      "maxGap": 5.684341886080802e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.6,
+      "maxGap": 5.684341886080802e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.8,
+      "maxGap": 6.355287432313019e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.999,
+      "maxGap": 6.355287432313019e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 367,
+      "continuousSurface": true
+    }
+  ],
+  "mobileOverflow": false,
+  "errors": [],
+  "speciesSwitch": true
+}

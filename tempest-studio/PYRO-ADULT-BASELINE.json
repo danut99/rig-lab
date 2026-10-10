@@ -1,0 +1,22 @@
+{
+  "public/models/pyroceratops/animated.json": "3c8fda1eaf9bd11a444b6f60104f2895a9e9ef5c9431aaf8a210aa3b5c1e4153",
+  "public/models/pyroceratops/art.png": "67c2f3b22265651e3d5e7af8974691a71b5d1a7892b8c7c59de8aff735d1d2f0",
+  "public/models/pyroceratops/bones.json": "1642cb227c0e3355d96a80a7e6d1c04579f30ee12e339ec9e93e237e1e88ac5e",
+  "public/models/pyroceratops/farFrontFoot.png": "720443b941d03dbc8f7ceec81c3311037a6ed182fc41853763c20b244ea3995b",
+  "public/models/pyroceratops/farFrontLower.png": "4142953872f9837fcd9bd449adf1d1765f7787c0b504571fe2c873e25ada2b14",
+  "public/models/pyroceratops/farFrontUpper.png": "16e313c073d6c80deb96ffc82f66add1e54699637e3ad11c2e2b8ca5a303286b",
+  "public/models/pyroceratops/farHindFoot.png": "1a8c196e0274c39362d639cb0a4846602394cf495db6b59accc236090d9a3a2c",
+  "public/models/pyroceratops/farHindLower.png": "d51c85d2c738c9ebf672162bed5048e05a726031efec89ad50dc7418a549f801",
+  "public/models/pyroceratops/farHindUpper.png": "b640b9e702cc374e3e82c11b738aea416e5ace5bb3489dd7586f6c67f8664671",
+  "public/models/pyroceratops/layout.json": "b225105c48bb70bb8f24310c0aade6a24c9a1a0c5736c66f033a1047ba6c7849",
+  "public/models/pyroceratops/nearFrontFoot.png": "aab2b101b3ef99da13d6668895812df576e3d05ff036ae57d4e8efd27f182961",
+  "public/models/pyroceratops/nearFrontLower.png": "d5c92baf527b5e05f9e370b28f9adfd09dd33d5175ba8548653629e0eda7b41c",
+  "public/models/pyroceratops/nearFrontUpper.png": "3cd1fc80944a90a54c6f643498c2eec96a771698f3cb93ce80e90d7c0f2000f7",
+  "public/models/pyroceratops/nearHindFoot.png": "07ac006cb36e24132958bb379be4494cca4a03cd147689467ebbeefc36e8c127",
+  "public/models/pyroceratops/nearHindLower.png": "90a36b757d32a705375e2dc85cf3f01583fa2af7049308f61f8acbd860d6e2bd",
+  "public/models/pyroceratops/nearHindUpper.png": "9963e4387942094fe2320589a73bffcf038f12d13b06f47ff0b2005b2745d7d6",
+  "public/models/pyroceratops/reference.png": "3bffd8992dcf6da5fcd8a64825fc502277efec84596e6abaf9121ae759bfaf40",
+  "public/models/pyroceratops/rig.atlas": "0a5bfba3be401865b9bb7803191be9352a3a2582099e1a83eebbff8afd703dc9",
+  "scripts/build-pyro.mjs": "62efd44b888e7e3bfd7c1851de638aab8a6d78a1f91c5bdfe8b9fc7412484d70",
+  "scripts/pyro-motion.mjs": "addddd7bf920127984a498ee250387bbcbd8b9d6ef41c217a8c33dd07aaf90b6"
+}

@@ -1,0 +1,398 @@
+
+basic_2783_dragon_runewyvern_3_HD_spine-3-8-59_dxt5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+basic/body
+  rotate: false
+  xy: 2, 155
+  size: 175, 337
+  orig: 175, 337
+  offset: 0, 0
+  index: -1
+basic/eye_2_l
+  rotate: true
+  xy: 543, 1000
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+basic/eye_2_r
+  rotate: false
+  xy: 406, 355
+  size: 12, 20
+  orig: 12, 20
+  offset: 0, 0
+  index: -1
+basic/eye_l
+  rotate: true
+  xy: 202, 804
+  size: 16, 24
+  orig: 16, 24
+  offset: 0, 0
+  index: -1
+basic/eye_r
+  rotate: false
+  xy: 800, 854
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+basic/eyelid_l
+  rotate: false
+  xy: 955, 321
+  size: 48, 110
+  orig: 48, 110
+  offset: 0, 0
+  index: -1
+basic/eyelid_r
+  rotate: false
+  xy: 952, 464
+  size: 70, 112
+  orig: 70, 112
+  offset: 0, 0
+  index: -1
+basic/face_2
+  rotate: false
+  xy: 149, 945
+  size: 48, 62
+  orig: 48, 62
+  offset: 0, 0
+  index: -1
+basic/leaf_1_l
+  rotate: true
+  xy: 905, 694
+  size: 44, 104
+  orig: 44, 104
+  offset: 0, 0
+  index: -1
+basic/leaf_1_r
+  rotate: false
+  xy: 402, 842
+  size: 143, 118
+  orig: 143, 118
+  offset: 0, 0
+  index: -1
+basic/leaf_2_l
+  rotate: true
+  xy: 202, 745
+  size: 33, 42
+  orig: 33, 42
+  offset: 0, 0
+  index: -1
+basic/leaf_2_r
+  rotate: true
+  xy: 972, 740
+  size: 91, 42
+  orig: 91, 42
+  offset: 0, 0
+  index: -1
+basic/leaf_3_l
+  rotate: true
+  xy: 402, 962
+  size: 51, 113
+  orig: 51, 113
+  offset: 0, 0
+  index: -1
+basic/leaf_3_r
+  rotate: false
+  xy: 835, 759
+  size: 135, 122
+  orig: 135, 122
+  offset: 0, 0
+  index: -1
+basic/leg_lower_l
+  rotate: false
+  xy: 942, 2
+  size: 63, 105
+  orig: 63, 105
+  offset: 0, 0
+  index: -1
+basic/leg_lower_r
+  rotate: true
+  xy: 2, 945
+  size: 68, 145
+  orig: 68, 145
+  offset: 0, 0
+  index: -1
+basic/leg_middle_l
+  rotate: false
+  xy: 547, 950
+  size: 79, 48
+  orig: 79, 48
+  offset: 0, 0
+  index: -1
+basic/leg_middle_r
+  rotate: false
+  xy: 902, 883
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+basic/leg_upper_l
+  rotate: true
+  xy: 800, 883
+  size: 92, 100
+  orig: 92, 100
+  offset: 0, 0
+  index: -1
+basic/leg_upper_r
+  rotate: true
+  xy: 823, 464
+  size: 87, 127
+  orig: 87, 127
+  offset: 0, 0
+  index: -1
+basic/mouth_lower_1
+  rotate: false
+  xy: 628, 950
+  size: 64, 62
+  orig: 64, 62
+  offset: 0, 0
+  index: -1
+basic/mouth_lower_2
+  rotate: false
+  xy: 902, 970
+  size: 54, 52
+  orig: 54, 52
+  offset: 0, 0
+  index: -1
+basic/mouth_lower_3
+  rotate: true
+  xy: 179, 418
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+basic/mouth_upper
+  rotate: false
+  xy: 905, 578
+  size: 87, 114
+  orig: 87, 114
+  offset: 0, 0
+  index: -1
+basic/tail
+  rotate: false
+  xy: 2, 2
+  size: 400, 151
+  orig: 400, 151
+  offset: 0, 0
+  index: -1
+basic/teeth_1_l
+  rotate: true
+  xy: 149, 1009
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+basic/teeth_1_r
+  rotate: false
+  xy: 423, 555
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+basic/toe_1_l
+  rotate: false
+  xy: 517, 962
+  size: 24, 49
+  orig: 24, 49
+  offset: 0, 0
+  index: -1
+basic/toe_1_r
+  rotate: false
+  xy: 994, 613
+  size: 25, 56
+  orig: 25, 56
+  offset: 0, 0
+  index: -1
+basic/toe_2_l
+  rotate: true
+  xy: 661, 121
+  size: 31, 57
+  orig: 31, 57
+  offset: 0, 0
+  index: -1
+basic/toe_2_r
+  rotate: true
+  xy: 694, 950
+  size: 35, 67
+  orig: 35, 67
+  offset: 0, 0
+  index: -1
+basic/toe_3_l
+  rotate: true
+  xy: 202, 780
+  size: 22, 42
+  orig: 22, 42
+  offset: 0, 0
+  index: -1
+basic/toe_3_r
+  rotate: false
+  xy: 958, 970
+  size: 23, 52
+  orig: 23, 52
+  offset: 0, 0
+  index: -1
+basic/wing_1_l
+  rotate: false
+  xy: 404, 2
+  size: 255, 151
+  orig: 255, 151
+  offset: 0, 0
+  index: -1
+basic/wing_1_r
+  rotate: false
+  xy: 661, 2
+  size: 279, 117
+  orig: 279, 117
+  offset: 0, 0
+  index: -1
+basic/wing_2_l
+  rotate: true
+  xy: 659, 755
+  size: 97, 174
+  orig: 97, 174
+  offset: 0, 0
+  index: -1
+basic/wing_2_r
+  rotate: false
+  xy: 246, 418
+  size: 175, 202
+  orig: 175, 202
+  offset: 0, 0
+  index: -1
+basic/wing_3_l
+  rotate: true
+  xy: 846, 553
+  size: 204, 57
+  orig: 204, 57
+  offset: 0, 0
+  index: -1
+basic/wing_3_r
+  rotate: false
+  xy: 446, 755
+  size: 211, 85
+  orig: 211, 85
+  offset: 0, 0
+  index: -1
+basic/wing_4_l
+  rotate: false
+  xy: 823, 321
+  size: 130, 141
+  orig: 130, 141
+  offset: 0, 0
+  index: -1
+basic/wing_4_r
+  rotate: true
+  xy: 656, 854
+  size: 94, 142
+  orig: 94, 142
+  offset: 0, 0
+  index: -1
+basic/wing_membrane_2_l
+  rotate: true
+  xy: 570, 1000
+  size: 22, 24
+  orig: 22, 24
+  offset: 0, 0
+  index: -1
+basic/wing_membrane_2_r
+  rotate: false
+  xy: 994, 578
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+basic/wing_membrane_l
+  rotate: false
+  xy: 2, 494
+  size: 242, 249
+  orig: 242, 249
+  offset: 0, 0
+  index: -1
+basic/wing_membrane_r
+  rotate: true
+  xy: 179, 155
+  size: 261, 225
+  orig: 261, 225
+  offset: 0, 0
+  index: -1
+fx/airwave_2_grey
+  rotate: false
+  xy: 547, 842
+  size: 107, 106
+  orig: 107, 106
+  offset: 0, 0
+  index: -1
+fx/Smoke 040 Ray Up Loop_1
+  rotate: false
+  xy: 2, 745
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1
+fx/Smoke 040 Ray Up Loop_2
+  rotate: false
+  xy: 406, 155
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1
+fx/Smoke 040 Ray Up Loop_3
+  rotate: false
+  xy: 423, 355
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1
+fx/Smoke 040 Ray Up Loop_4
+  rotate: false
+  xy: 246, 622
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1
+fx/Smoke 040 Ray Up Loop_5
+  rotate: false
+  xy: 446, 555
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1
+fx/Smoke 065 Up Loop_1
+  rotate: false
+  xy: 202, 822
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1
+fx/Smoke 065 Up Loop_2
+  rotate: false
+  xy: 606, 155
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1
+fx/Smoke 065 Up Loop_3
+  rotate: false
+  xy: 623, 355
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1
+fx/Smoke 065 Up Loop_4
+  rotate: false
+  xy: 646, 555
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1
+fx/Smoke 065 Up Loop_5
+  rotate: false
+  xy: 806, 121
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1

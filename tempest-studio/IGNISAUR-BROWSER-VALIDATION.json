@@ -1,0 +1,26 @@
+{
+  "stages": [
+    {
+      "stage": "adult",
+      "id": "ignisaur",
+      "bones": 23,
+      "species": 13,
+      "ages": 3
+    },
+    {
+      "stage": "pui",
+      "id": "ignisaur-pui",
+      "bones": 23,
+      "species": 13,
+      "ages": 3
+    },
+    {
+      "stage": "juvenil",
+      "id": "ignisaur-juvenil",
+      "bones": 23,
+      "species": 13,
+      "ages": 3
+    }
+  ],
+  "errors": []
+}

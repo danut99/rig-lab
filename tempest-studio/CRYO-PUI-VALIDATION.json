@@ -1,0 +1,13 @@
+{
+  "frames": 540,
+  "bones": 22,
+  "layers": 7,
+  "maxSetupError": 0,
+  "maxJointError": 1.8198773652309366e-13,
+  "maxReachError": 0,
+  "minAreaRatio": 0.5399840247990425,
+  "skeletalMotionOnly": true,
+  "referencePixelsPreserved": true,
+  "continuousSurface": true,
+  "ultimateDeferred": true
+}

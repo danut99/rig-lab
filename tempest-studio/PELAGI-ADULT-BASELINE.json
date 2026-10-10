@@ -1,0 +1,10 @@
+{
+  "public/models/pelagisaur/animated.json": "a5812f0c2d1cc21beafe686773197d66e85a0ba6d719f290c8bb9ca955c35bda",
+  "public/models/pelagisaur/art.png": "a17b813f9d7c8d3b419632cd06c7ca5b9b8fbe86742744fc0c53ac57c025a7c2",
+  "public/models/pelagisaur/bones.json": "5422df723b9c89efa99ad95c5208842faf625e4aff023c63dc8456deac127ad8",
+  "public/models/pelagisaur/layout.json": "d56ff7b87055f366845f35930c7e824d8fd0cca15d244de15dd7af6ab1679a89",
+  "public/models/pelagisaur/reference.png": "a83dc37bf2ab0b8e6c438ec61fb9da64337bc4c5b32e51a15c029cc577b25ab6",
+  "public/models/pelagisaur/rig.atlas": "f9d4fe86f12089d69a988fe8327314615f241ffc4534da6bd14eb106663a1781",
+  "scripts/build-pelagi.mjs": "537e24efd5dcd75dee8d2d8b5d2323732593effdac3b10f429886edca6765d92",
+  "scripts/pelagi-motion.mjs": "7bc0184bb35786509d6889792ef368548a6c1e912f55e42cdde1e1fd8570c6ba"
+}

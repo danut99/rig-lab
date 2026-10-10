@@ -1,0 +1,2442 @@
+{
+  "models": [
+    {
+      "id": "tempestopteryx",
+      "name": "Tempestopteryx Ã‚Â· Adult",
+      "skeleton": "model/animated.json",
+      "atlas": "model/rig.atlas",
+      "bounds": {
+        "x": -970,
+        "y": -480,
+        "width": 1810,
+        "height": 1410
+      },
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Plutire",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Zbor",
+          "duration": 1.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Picaj",
+          "duration": 3.2,
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "label": "Asalt aerian",
+          "duration": 4.6,
+          "loop": false
+        }
+      ],
+      "description": "Zbor cu b?t?i ?i planaj.",
+      "explanation": "Picajul include preg?tire ?i fr?nare. Asaltul aerian combin? urcarea, virajul ?i plonjarea."
+    },
+    {
+      "id": "fulgurodrome",
+      "name": "Fulgurodrome Ã‚Â· Adult",
+      "skeleton": "models/fulgurodrome/animated.json",
+      "atlas": "models/fulgurodrome/rig.atlas",
+      "bounds": {
+        "x": -1110,
+        "y": -620,
+        "width": 1870,
+        "height": 1330
+      },
+      "reference": {
+        "image": "models/fulgurodrome/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          1000,
+          500
+        ]
+      },
+      "description": "Biped agil. Sprijin pe picioare.",
+      "explanation": "Picioarele alterneazÃ„Æ’ la mers, coada echilibreazÃ„Æ’ corpul, iar braÃˆâ€ºele urmÃ„Æ’resc atacul. Mersul ruleazÃ„Æ’ pe loc. MiÃˆâ„¢carea este construitÃ„Æ’ pe articulaÃˆâ€ºii, fÃ„Æ’rÃ„Æ’ efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 1.6,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Gheare",
+          "duration": 2.6,
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "label": "Salt ofensiv",
+          "duration": 3.8,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "frondonychus",
+      "name": "Frondonychus Ã‚Â· Adult",
+      "skeleton": "models/frondonychus/animated.json",
+      "atlas": "models/frondonychus/rig.atlas",
+      "bounds": {
+        "x": -755,
+        "y": -700,
+        "width": 1510,
+        "height": 1450
+      },
+      "reference": {
+        "image": "models/frondonychus/reference.png",
+        "width": 1225,
+        "height": 1284,
+        "origin": [
+          650,
+          650
+        ]
+      },
+      "description": "Mers si atac cu ghearele.",
+      "explanation": "Mers adaptat dupa Robo Ravager. Atac scurt cu ghearele pe o suprafata continua. Ultimata este amanata.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.6,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "LoviturÃ„Æ’ cu ghearele",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "tundraceratops",
+      "name": "Tundraceratops Ã‚Â· Adult",
+      "skeleton": "models/tundraceratops/animated.json",
+      "atlas": "models/tundraceratops/rig.atlas",
+      "bounds": {
+        "x": -780,
+        "y": -540,
+        "width": 1690,
+        "height": 1130
+      },
+      "reference": {
+        "image": "models/tundraceratops/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          700,
+          530
+        ]
+      },
+      "description": "Mers greu. Atac cu coarnele.",
+      "explanation": "Repaus, mers pe loc si atac adaptate dupa War Thorn. Coarnele si scutul capului raman rigide.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.4,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Impungere cu coarnele",
+          "duration": 2.8,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "terratitan",
+      "name": "Terratitan Ã‚Â· Adult",
+      "skeleton": "models/terratitan/animated.json",
+      "atlas": "models/terratitan/rig.atlas",
+      "bounds": {
+        "x": -750,
+        "y": -560,
+        "width": 1430,
+        "height": 1290
+      },
+      "reference": {
+        "image": "models/terratitan/reference.png",
+        "width": 1312,
+        "height": 1199,
+        "origin": [
+          690,
+          690
+        ]
+      },
+      "description": "Mers de sauropod. Lovitura cu piciorul.",
+      "explanation": "Ritmul pe patru picioare studiat la War Thorn, adaptat pentru un sauropod. Gat articulat, coada flexibila si atac printr-o lovitura cu piciorul.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 3,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitura cu piciorul",
+          "duration": 3.2,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "silvosteg",
+      "name": "Silvosteg Ã‚Â· Adult",
+      "skeleton": "models/silvosteg/animated.json",
+      "atlas": "models/silvosteg/rig.atlas",
+      "bounds": {
+        "x": -850,
+        "y": -460,
+        "width": 1650,
+        "height": 1080
+      },
+      "reference": {
+        "image": "models/silvosteg/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          800,
+          570
+        ]
+      },
+      "description": "Mers greu. Lovitura cu coada.",
+      "explanation": "Mers pe patru picioare inspirat de War Thorn. Atac propriu cu pregatire, lovitura de coada si revenire. Placile dorsale urmeaza trunchiul.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.8,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.6,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitura cu coada",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "cineraptor",
+      "name": "Cineraptor Ã‚Â· Adult",
+      "skeleton": "models/cineraptor/animated.json",
+      "atlas": "models/cineraptor/rig.atlas",
+      "bounds": {
+        "x": -990,
+        "y": -530,
+        "width": 1650,
+        "height": 1110
+      },
+      "reference": {
+        "image": "models/cineraptor/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          930,
+          510
+        ]
+      },
+      "description": "Mers de raptor. Atac rapid.",
+      "explanation": "Mers biped inspirat de Robo Ravager. Atac cu pregatire joasa, impuls inainte si revenire. Ghearele raman coerente; fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 1.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac rapid",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "cryolophus",
+      "name": "Cryolophus Ã‚Â· Adult",
+      "skeleton": "models/cryolophus/animated.json",
+      "atlas": "models/cryolophus/rig.atlas",
+      "bounds": {
+        "x": -870,
+        "y": -560,
+        "width": 1650,
+        "height": 1130
+      },
+      "reference": {
+        "image": "models/cryolophus/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          810,
+          490
+        ]
+      },
+      "description": "Mers ritmat. Muscatura.",
+      "explanation": "Mers inspirat de Red Crested; pregatire si avans inspirate de Reptileader. Atac de muscatura cu maxilar articulat. Fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.8,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.15,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Muscatura",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "ferrankyl",
+      "name": "Ferrankyl Ã‚Â· Adult",
+      "skeleton": "models/ferrankyl/animated.json",
+      "atlas": "models/ferrankyl/rig.atlas",
+      "bounds": {
+        "x": -1080,
+        "y": -510,
+        "width": 2000,
+        "height": 1030
+      },
+      "reference": {
+        "image": "models/ferrankyl/reference.png",
+        "width": 1774,
+        "height": 887,
+        "origin": [
+          950,
+          430
+        ]
+      },
+      "description": "Mers blindat. Lovitura cu maciuca.",
+      "explanation": "Mers si pregatire de atac studiate la Flaming Rock. Pas scurt cu sprijin greu; lovitura proprie cu coada si maciuca rigida. Fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 4.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitura cu maciuca",
+          "duration": 2.8,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "fluviovenator",
+      "name": "Fluviovenator Ã‚Â· Adult",
+      "skeleton": "models/fluviovenator/animated.json",
+      "atlas": "models/fluviovenator/rig.atlas",
+      "bounds": {
+        "x": -870,
+        "y": -560,
+        "width": 1650,
+        "height": 1130
+      },
+      "reference": {
+        "image": "models/fluviovenator/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          790,
+          480
+        ]
+      },
+      "description": "Mers calculat. Muscatura joasa.",
+      "explanation": "Cadenta de mers studiata la Cavemodo; atac adaptat prin coborarea gatului, avans si muscatura. Coada lunga contrabalanseaza trunchiul. Fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.4,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Muscatura",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "pelagisaur",
+      "name": "Pelagisaur Ã‚Â· Adult",
+      "skeleton": "models/pelagisaur/animated.json",
+      "atlas": "models/pelagisaur/rig.atlas",
+      "bounds": {
+        "x": -1010,
+        "y": -450,
+        "width": 1970,
+        "height": 1060
+      },
+      "reference": {
+        "image": "models/pelagisaur/reference.png",
+        "width": 1774,
+        "height": 887,
+        "origin": [
+          920,
+          480
+        ]
+      },
+      "description": "Inot cu patru inotatoare. Atac prin avans.",
+      "explanation": "Sea Dragon: studiu al inotului, atacului si efectelor de apa. Miscare adaptata pe oase: inotatoare, gat si coada; atac prin avans.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Plutire",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "swim",
+          "label": "Inot",
+          "duration": 2.4,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac prin avans",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "pyroceratops",
+      "name": "Pyroceratops Ã‚Â· Adult",
+      "skeleton": "models/pyroceratops/animated.json",
+      "atlas": "models/pyroceratops/rig.atlas",
+      "bounds": {
+        "x": -850,
+        "y": -540,
+        "width": 1680,
+        "height": 1130
+      },
+      "reference": {
+        "image": "models/pyroceratops/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          770,
+          550
+        ]
+      },
+      "description": "Mers greu. Atac cu coarnele.",
+      "explanation": "Repaus, mers pe loc si atac adaptate dupa War Thorn. Coarnele si scutul capului raman rigide.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.65,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu coarnele",
+          "duration": 2.8,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "baseSpecies": "pyroceratops",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "id": "pyroceratops-pui",
+      "name": "Pyroceratops - Copil",
+      "skeleton": "models/pyroceratops-pui/animated.json",
+      "atlas": "models/pyroceratops-pui/rig.atlas",
+      "bounds": {
+        "x": -850,
+        "y": -540,
+        "width": 1680,
+        "height": 1130
+      },
+      "reference": {
+        "image": "models/pyroceratops-pui/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          770,
+          550
+        ]
+      },
+      "description": "Mers greu. Atac cu coarnele.",
+      "explanation": "Repaus, mers pe loc si atac adaptate dupa War Thorn. Coarnele si scutul capului raman rigide.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu coarnele",
+          "duration": 2.8,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "baseSpecies": "pyroceratops",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "id": "pyroceratops-juvenil",
+      "name": "Pyroceratops - Juvenil",
+      "skeleton": "models/pyroceratops-juvenil/animated.json",
+      "atlas": "models/pyroceratops-juvenil/rig.atlas",
+      "bounds": {
+        "x": -850,
+        "y": -540,
+        "width": 1680,
+        "height": 1130
+      },
+      "reference": {
+        "image": "models/pyroceratops-juvenil/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          770,
+          550
+        ]
+      },
+      "description": "Mers greu. Atac cu coarnele.",
+      "explanation": "Repaus, mers pe loc si atac adaptate dupa War Thorn. Coarnele si scutul capului raman rigide.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.8,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.35,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu coarnele",
+          "duration": 2.8,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "pelagisaur-juvenil",
+      "baseSpecies": "pelagisaur",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "name": "Pelagisaur - Juvenil",
+      "skeleton": "models/pelagisaur-juvenil/animated.json",
+      "atlas": "models/pelagisaur-juvenil/rig.atlas",
+      "bounds": {
+        "x": -1010,
+        "y": -450,
+        "width": 1970,
+        "height": 1060
+      },
+      "reference": {
+        "image": "models/pelagisaur-juvenil/reference.png",
+        "width": 1774,
+        "height": 887,
+        "origin": [
+          920,
+          480
+        ]
+      },
+      "description": "Inot cu patru inotatoare. Atac prin avans.",
+      "explanation": "Sea Dragon: studiu al inotului, atacului si efectelor de apa. Miscare adaptata pe oase: inotatoare, gat si coada; atac prin avans.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Plutire",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "swim",
+          "label": "Inot",
+          "duration": 2.4,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac prin avans",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "pelagisaur-pui",
+      "baseSpecies": "pelagisaur",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "name": "Pelagisaur - Copil",
+      "skeleton": "models/pelagisaur-pui/animated.json",
+      "atlas": "models/pelagisaur-pui/rig.atlas",
+      "bounds": {
+        "x": -1010,
+        "y": -450,
+        "width": 1970,
+        "height": 1060
+      },
+      "reference": {
+        "image": "models/pelagisaur-pui/reference.png",
+        "width": 1774,
+        "height": 887,
+        "origin": [
+          920,
+          480
+        ]
+      },
+      "description": "Inot cu patru inotatoare. Atac prin avans.",
+      "explanation": "Sea Dragon: studiu al inotului, atacului si efectelor de apa. Miscare adaptata pe oase: inotatoare, gat si coada; atac prin avans.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Plutire",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "swim",
+          "label": "Inot",
+          "duration": 2.4,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac prin avans",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "ferrankyl-juvenil",
+      "baseSpecies": "ferrankyl",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "name": "Ferrankyl - Juvenil",
+      "skeleton": "models/ferrankyl-juvenil/animated.json",
+      "atlas": "models/ferrankyl-juvenil/rig.atlas",
+      "bounds": {
+        "x": -1080,
+        "y": -510,
+        "width": 2000,
+        "height": 1030
+      },
+      "reference": {
+        "image": "models/ferrankyl-juvenil/reference.png",
+        "width": 1774,
+        "height": 887,
+        "origin": [
+          950,
+          430
+        ]
+      },
+      "description": "Mers blindat. Lovitura cu maciuca.",
+      "explanation": "Mers si pregatire de atac studiate la Flaming Rock. Pas scurt cu sprijin greu; lovitura proprie cu coada si maciuca rigida. Fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 4.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitura cu maciuca",
+          "duration": 2.8,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "fluviovenator-juvenil",
+      "baseSpecies": "fluviovenator",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "name": "Fluviovenator - Juvenil",
+      "skeleton": "models/fluviovenator-juvenil/animated.json",
+      "atlas": "models/fluviovenator-juvenil/rig.atlas",
+      "bounds": {
+        "x": -870,
+        "y": -560,
+        "width": 1650,
+        "height": 1130
+      },
+      "reference": {
+        "image": "models/fluviovenator-juvenil/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          790,
+          480
+        ]
+      },
+      "description": "Mers calculat. Muscatura joasa.",
+      "explanation": "Cadenta de mers studiata la Cavemodo; atac adaptat prin coborarea gatului, avans si muscatura. Coada lunga contrabalanseaza trunchiul. Fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.4,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Muscatura",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "cineraptor-juvenil",
+      "baseSpecies": "cineraptor",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "name": "Cineraptor - Juvenil",
+      "skeleton": "models/cineraptor-juvenil/animated.json",
+      "atlas": "models/cineraptor-juvenil/rig.atlas",
+      "bounds": {
+        "x": -990,
+        "y": -530,
+        "width": 1650,
+        "height": 1110
+      },
+      "reference": {
+        "image": "models/cineraptor-juvenil/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          930,
+          510
+        ]
+      },
+      "description": "Mers de raptor. Atac rapid.",
+      "explanation": "Mers biped inspirat de Robo Ravager. Atac cu pregatire joasa, impuls inainte si revenire. Ghearele raman coerente; fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 1.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac rapid",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "ferrankyl-pui",
+      "baseSpecies": "ferrankyl",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "name": "Ferrankyl - Copil",
+      "skeleton": "models/ferrankyl-pui/animated.json",
+      "atlas": "models/ferrankyl-pui/rig.atlas",
+      "bounds": {
+        "x": -1080,
+        "y": -510,
+        "width": 2000,
+        "height": 1030
+      },
+      "reference": {
+        "image": "models/ferrankyl-pui/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          950,
+          430
+        ]
+      },
+      "description": "Mers blindat. Lovitura cu maciuca.",
+      "explanation": "Mers si pregatire de atac studiate la Flaming Rock. Pas scurt cu sprijin greu; lovitura proprie cu coada si maciuca rigida. Fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 4.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitura cu maciuca",
+          "duration": 2.8,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "fluviovenator-pui",
+      "baseSpecies": "fluviovenator",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "name": "Fluviovenator - Copil",
+      "skeleton": "models/fluviovenator-pui/animated.json",
+      "atlas": "models/fluviovenator-pui/rig.atlas",
+      "bounds": {
+        "x": -870,
+        "y": -560,
+        "width": 1650,
+        "height": 1130
+      },
+      "reference": {
+        "image": "models/fluviovenator-pui/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          790,
+          480
+        ]
+      },
+      "description": "Mers calculat. Muscatura joasa.",
+      "explanation": "Cadenta de mers studiata la Cavemodo; atac adaptat prin coborarea gatului, avans si muscatura. Coada lunga contrabalanseaza trunchiul. Fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.4,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Muscatura",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "cineraptor-pui",
+      "baseSpecies": "cineraptor",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "name": "Cineraptor - Copil",
+      "skeleton": "models/cineraptor-pui/animated.json",
+      "atlas": "models/cineraptor-pui/rig.atlas",
+      "bounds": {
+        "x": -990,
+        "y": -530,
+        "width": 1650,
+        "height": 1110
+      },
+      "reference": {
+        "image": "models/cineraptor-pui/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          930,
+          510
+        ]
+      },
+      "description": "Mers de raptor. Atac rapid.",
+      "explanation": "Mers biped inspirat de Robo Ravager. Atac cu pregatire joasa, impuls inainte si revenire. Ghearele raman coerente; fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 1.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac rapid",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "tempestopteryx-pui",
+      "baseSpecies": "tempestopteryx",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "name": "Tempestopteryx - Copil",
+      "skeleton": "models/tempestopteryx-pui/animated.json",
+      "atlas": "models/tempestopteryx-pui/rig.atlas",
+      "bounds": {
+        "x": -970,
+        "y": -480,
+        "width": 1810,
+        "height": 1410
+      },
+      "reference": {
+        "image": "models/tempestopteryx-pui/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          900,
+          660
+        ]
+      },
+      "description": "Zbor sincronizat, cu proportii proprii varstei.",
+      "explanation": "Arta proprie varstei; aripi sincronizate si gat stabil. Adultul nu este modificat.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Plutire",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Zbor",
+          "duration": 1.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Picaj",
+          "duration": 3.2,
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "label": "Asalt aerian",
+          "duration": 4.6,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "tempestopteryx-juvenil",
+      "baseSpecies": "tempestopteryx",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "name": "Tempestopteryx - Juvenil",
+      "skeleton": "models/tempestopteryx-juvenil/animated.json",
+      "atlas": "models/tempestopteryx-juvenil/rig.atlas",
+      "bounds": {
+        "x": -970,
+        "y": -480,
+        "width": 1810,
+        "height": 1410
+      },
+      "reference": {
+        "image": "models/tempestopteryx-juvenil/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          900,
+          650
+        ]
+      },
+      "description": "Zbor sincronizat, cu proportii proprii varstei.",
+      "explanation": "Arta proprie varstei; aripi sincronizate si gat stabil. Adultul nu este modificat.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Plutire",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Zbor",
+          "duration": 1.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Picaj",
+          "duration": 3.2,
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "label": "Asalt aerian",
+          "duration": 4.6,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "fulgurodrome-pui",
+      "baseSpecies": "fulgurodrome",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "name": "Fulgurodrome - Copil",
+      "skeleton": "models/fulgurodrome-pui/animated.json",
+      "atlas": "models/fulgurodrome-pui/rig.atlas",
+      "bounds": {
+        "x": -1140,
+        "y": -669,
+        "width": 1896,
+        "height": 1384
+      },
+      "reference": {
+        "image": "models/fulgurodrome-pui/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          960,
+          535
+        ]
+      },
+      "description": "Mers de raptor. Atac rapid.",
+      "explanation": "Mers biped inspirat de Robo Ravager. Atac cu pregatire joasa, impuls inainte si revenire. Ghearele raman coerente; fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 1.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac rapid",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "fulgurodrome-juvenil",
+      "baseSpecies": "fulgurodrome",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "name": "Fulgurodrome - Juvenil",
+      "skeleton": "models/fulgurodrome-juvenil/animated.json",
+      "atlas": "models/fulgurodrome-juvenil/rig.atlas",
+      "bounds": {
+        "x": -1160,
+        "y": -684,
+        "width": 1896,
+        "height": 1384
+      },
+      "reference": {
+        "image": "models/fulgurodrome-juvenil/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          980,
+          520
+        ]
+      },
+      "description": "Mers de raptor. Atac rapid.",
+      "explanation": "Mers biped inspirat de Robo Ravager. Atac cu pregatire joasa, impuls inainte si revenire. Ghearele raman coerente; fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 1.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac rapid",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "frondonychus-pui",
+      "baseSpecies": "frondonychus",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "name": "Frondonychus - Copil",
+      "skeleton": "models/frondonychus-pui/animated.json",
+      "atlas": "models/frondonychus-pui/rig.atlas",
+      "bounds": {
+        "x": -860,
+        "y": -744,
+        "width": 1585,
+        "height": 1644
+      },
+      "reference": {
+        "image": "models/frondonychus-pui/reference.png",
+        "width": 1225,
+        "height": 1284,
+        "origin": [
+          680,
+          720
+        ]
+      },
+      "description": "Mers de raptor. Atac rapid.",
+      "explanation": "Mers biped inspirat de Robo Ravager. Atac cu pregatire joasa, impuls inainte si revenire. Ghearele raman coerente; fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 1.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac rapid",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "frondonychus-juvenil",
+      "baseSpecies": "frondonychus",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "name": "Frondonychus - Juvenil",
+      "skeleton": "models/frondonychus-juvenil/animated.json",
+      "atlas": "models/frondonychus-juvenil/rig.atlas",
+      "bounds": {
+        "x": -860,
+        "y": -764,
+        "width": 1585,
+        "height": 1644
+      },
+      "reference": {
+        "image": "models/frondonychus-juvenil/reference.png",
+        "width": 1225,
+        "height": 1284,
+        "origin": [
+          680,
+          700
+        ]
+      },
+      "description": "Mers de raptor. Atac rapid.",
+      "explanation": "Mers biped inspirat de Robo Ravager. Atac cu pregatire joasa, impuls inainte si revenire. Ghearele raman coerente; fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 1.8,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac rapid",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "tundraceratops-pui",
+      "baseSpecies": "tundraceratops",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "name": "Tundraceratops - Copil",
+      "skeleton": "models/tundraceratops-pui/animated.json",
+      "atlas": "models/tundraceratops-pui/rig.atlas",
+      "bounds": {
+        "x": -970,
+        "y": -619,
+        "width": 1896,
+        "height": 1384
+      },
+      "reference": {
+        "image": "models/tundraceratops-pui/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          790,
+          585
+        ]
+      },
+      "description": "Mers greu. Atac cu coarnele.",
+      "explanation": "Repaus, mers pe loc si atac adaptate dupa War Thorn. Coarnele si scutul capului raman rigide.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.4,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Impungere cu coarnele",
+          "duration": 2.8,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "tundraceratops-juvenil",
+      "baseSpecies": "tundraceratops",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "name": "Tundraceratops - Juvenil",
+      "skeleton": "models/tundraceratops-juvenil/animated.json",
+      "atlas": "models/tundraceratops-juvenil/rig.atlas",
+      "bounds": {
+        "x": -980,
+        "y": -634,
+        "width": 1896,
+        "height": 1384
+      },
+      "reference": {
+        "image": "models/tundraceratops-juvenil/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          800,
+          570
+        ]
+      },
+      "description": "Mers greu. Atac cu coarnele.",
+      "explanation": "Repaus, mers pe loc si atac adaptate dupa War Thorn. Coarnele si scutul capului raman rigide.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.4,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Impungere cu coarnele",
+          "duration": 2.8,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "silvosteg-pui",
+      "baseSpecies": "silvosteg",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "name": "Silvosteg - Copil",
+      "skeleton": "models/silvosteg-pui/animated.json",
+      "atlas": "models/silvosteg-pui/rig.atlas",
+      "bounds": {
+        "x": -1030,
+        "y": -604,
+        "width": 1896,
+        "height": 1384
+      },
+      "reference": {
+        "image": "models/silvosteg-pui/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          850,
+          600
+        ]
+      },
+      "description": "Mers greu. Lovitura cu coada.",
+      "explanation": "Mers pe patru picioare inspirat de War Thorn. Atac propriu cu pregatire, lovitura de coada si revenire. Placile dorsale urmeaza trunchiul.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.8,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.6,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitura cu coada",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "silvosteg-juvenil",
+      "baseSpecies": "silvosteg",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "name": "Silvosteg - Juvenil",
+      "skeleton": "models/silvosteg-juvenil/animated.json",
+      "atlas": "models/silvosteg-juvenil/rig.atlas",
+      "bounds": {
+        "x": -1030,
+        "y": -624,
+        "width": 1896,
+        "height": 1384
+      },
+      "reference": {
+        "image": "models/silvosteg-juvenil/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          850,
+          580
+        ]
+      },
+      "description": "Mers greu. Lovitura cu coada.",
+      "explanation": "Mers pe patru picioare inspirat de War Thorn. Atac propriu cu pregatire, lovitura de coada si revenire. Placile dorsale urmeaza trunchiul.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.8,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.6,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitura cu coada",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "cryolophus-juvenil",
+      "baseSpecies": "cryolophus",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "name": "Cryolophus - Juvenil",
+      "skeleton": "models/cryolophus-juvenil/animated.json",
+      "atlas": "models/cryolophus-juvenil/rig.atlas",
+      "bounds": {
+        "x": -1030,
+        "y": -694,
+        "width": 1896,
+        "height": 1384
+      },
+      "reference": {
+        "image": "models/cryolophus-juvenil/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          850,
+          510
+        ]
+      },
+      "description": "Mers ritmat. Muscatura.",
+      "explanation": "Mers inspirat de Red Crested; pregatire si avans inspirate de Reptileader. Atac de muscatura cu maxilar articulat. Fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.8,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.15,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Muscatura",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "cryolophus-pui",
+      "baseSpecies": "cryolophus",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "name": "Cryolophus - Copil",
+      "skeleton": "models/cryolophus-pui/animated.json",
+      "atlas": "models/cryolophus-pui/rig.atlas",
+      "bounds": {
+        "x": -1050,
+        "y": -669,
+        "width": 1896,
+        "height": 1384
+      },
+      "reference": {
+        "image": "models/cryolophus-pui/reference.png",
+        "width": 1536,
+        "height": 1024,
+        "origin": [
+          870,
+          535
+        ]
+      },
+      "description": "Mers ritmat. Muscatura.",
+      "explanation": "Mers inspirat de Red Crested; pregatire si avans inspirate de Reptileader. Atac de muscatura cu maxilar articulat. Fara efecte vizuale.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.8,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.15,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Muscatura",
+          "duration": 3,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "terratitan-pui",
+      "baseSpecies": "terratitan",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "name": "Terratitan - Copil",
+      "skeleton": "models/terratitan-pui/animated.json",
+      "atlas": "models/terratitan-pui/rig.atlas",
+      "bounds": {
+        "x": -940,
+        "y": -639,
+        "width": 1672,
+        "height": 1559
+      },
+      "reference": {
+        "image": "models/terratitan-pui/reference.png",
+        "width": 1312,
+        "height": 1199,
+        "origin": [
+          760,
+          740
+        ]
+      },
+      "description": "Mers de sauropod. Lovitura cu piciorul.",
+      "explanation": "Ritmul pe patru picioare studiat la War Thorn, adaptat pentru un sauropod. Gat articulat, coada flexibila si atac printr-o lovitura cu piciorul.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 3,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitura cu piciorul",
+          "duration": 3.2,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "terratitan-juvenil",
+      "baseSpecies": "terratitan",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "name": "Terratitan - Juvenil",
+      "skeleton": "models/terratitan-juvenil/animated.json",
+      "atlas": "models/terratitan-juvenil/rig.atlas",
+      "bounds": {
+        "x": -900,
+        "y": -659,
+        "width": 1672,
+        "height": 1559
+      },
+      "reference": {
+        "image": "models/terratitan-juvenil/reference.png",
+        "width": 1312,
+        "height": 1199,
+        "origin": [
+          720,
+          720
+        ]
+      },
+      "description": "Mers de sauropod. Lovitura cu piciorul.",
+      "explanation": "Ritmul pe patru picioare studiat la War Thorn, adaptat pentru un sauropod. Gat articulat, coada flexibila si atac printr-o lovitura cu piciorul.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 3,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitura cu piciorul",
+          "duration": 3.2,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "ignisaur",
+      "baseSpecies": "ignisaur",
+      "stage": "adult",
+      "stageLabel": "Adult",
+      "name": "Ignisaur - Adult",
+      "skeleton": "models/ignisaur-adult/skeleton.json",
+      "atlas": "models/ignisaur-adult/rig.atlas",
+      "bounds": {
+        "x": -481.82,
+        "y": -31.82,
+        "width": 964.84,
+        "height": 559.93
+      },
+      "reference": {
+        "image": "models/ignisaur-adult/art.png",
+        "width": 929.6570275722931,
+        "height": 619.7713517148621,
+        "origin": [
+          460.8944182918628,
+          552.5891055817082
+        ]
+      },
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 1.65,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Mușcătură",
+          "duration": 1.8,
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "label": "Răget de jar",
+          "duration": 3.2,
+          "loop": false
+        }
+      ],
+      "description": "Dinozaur de foc cu armură de bazalt și solzi de jar.",
+      "explanation": "Artă originală pentru fiecare vârstă. Schelet articulat cu 23 de oase; repaus, mers, mușcătură și răget de jar. Habitat: foc."
+    },
+    {
+      "id": "ignisaur-pui",
+      "baseSpecies": "ignisaur",
+      "stage": "pui",
+      "stageLabel": "Copil",
+      "name": "Ignisaur - Copil",
+      "skeleton": "models/ignisaur-pui/skeleton.json",
+      "atlas": "models/ignisaur-pui/rig.atlas",
+      "bounds": {
+        "x": -292.49,
+        "y": -31.98,
+        "width": 585.47,
+        "height": 485.43
+      },
+      "reference": {
+        "image": "models/ignisaur-pui/art.png",
+        "width": 760.7134724857685,
+        "height": 507.1423149905123,
+        "origin": [
+          384.3187855787476,
+          453.1593927893738
+        ]
+      },
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 1.25,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Mușcătură",
+          "duration": 1.8,
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "label": "Răget de jar",
+          "duration": 3.2,
+          "loop": false
+        }
+      ],
+      "description": "Dinozaur de foc cu armură de bazalt și solzi de jar.",
+      "explanation": "Artă originală pentru fiecare vârstă. Schelet articulat cu 23 de oase; repaus, mers, mușcătură și răget de jar. Habitat: foc."
+    },
+    {
+      "id": "ignisaur-juvenil",
+      "baseSpecies": "ignisaur",
+      "stage": "juvenil",
+      "stageLabel": "Juvenil",
+      "name": "Ignisaur - Juvenil",
+      "skeleton": "models/ignisaur-juvenil/skeleton.json",
+      "atlas": "models/ignisaur-juvenil/rig.atlas",
+      "bounds": {
+        "x": -386.96,
+        "y": -31.46,
+        "width": 774.4,
+        "height": 434.21
+      },
+      "reference": {
+        "image": "models/ignisaur-juvenil/art.png",
+        "width": 746.4771018455228,
+        "height": 497.6514012303486,
+        "origin": [
+          370.56561859193437,
+          423.78127136021874
+        ]
+      },
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Repaus",
+          "duration": 3.2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 1.45,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Mușcătură",
+          "duration": 1.8,
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "label": "Răget de jar",
+          "duration": 3.2,
+          "loop": false
+        }
+      ],
+      "description": "Dinozaur de foc cu armură de bazalt și solzi de jar.",
+      "explanation": "Artă originală pentru fiecare vârstă. Schelet articulat cu 23 de oase; repaus, mers, mușcătură și răget de jar. Habitat: foc."
+    },
+    {
+      "id": "calderox",
+      "name": "Calderox",
+      "baseSpecies": "calderox",
+      "stage": "adult",
+      "stageLabel": "Legendar",
+      "legendary": true,
+      "skeleton": "models/calderox/skeleton.json",
+      "atlas": "models/calderox/rig.atlas",
+      "bounds": {
+        "x": -740,
+        "y": -39.6875,
+        "width": 1475.3125,
+        "height": 1021.5625
+      },
+      "animationBounds": {
+        "idle": {
+          "x": -740,
+          "y": -39.6875,
+          "width": 1475.3125,
+          "height": 1021.5625
+        },
+        "walk": {
+          "x": -740,
+          "y": -39.6875,
+          "width": 1475.3125,
+          "height": 1021.5625
+        },
+        "attack": {
+          "x": -740,
+          "y": -78.515625,
+          "width": 1995.671875,
+          "height": 1060.390625
+        },
+        "ultimate": {
+          "x": -740,
+          "y": -39.6875,
+          "width": 1475.3125,
+          "height": 1435.3125
+        }
+      },
+      "reference": {
+        "image": "models/calderox/art.png",
+        "width": 1200,
+        "height": 900,
+        "origin": [
+          600,
+          900
+        ]
+      },
+      "animations": [
+        {
+          "name": "idle",
+          "duration": 3.16666659116745,
+          "label": "Repaus",
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 2.666666603088379,
+          "label": "Mers greu",
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "duration": 2.4266667556762695,
+          "label": "Lovitură de asediu",
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "duration": 2.8000000000000003,
+          "label": "Erupție de calderă",
+          "loop": false
+        }
+      ],
+      "description": "Cetatea vie a calderei",
+      "explanation": "Flaming Rock: retragere, asalt și ridicare pentru erupție. Curbe de mișcare din scheletul original, adaptate la această anatomie; efectele urmăresc momentul atacului.",
+      "effectSource": {
+        "archive": "basic_2755_dragon_incendiary_3_HD_spine-3-8-59_dxt5.zip",
+        "regions": [
+          "FX/blow-fire/blow-0001",
+          "FX/blow-fire/blow-0002",
+          "FX/blow-fire/blow-0003",
+          "FX/blow-fire/blow-0004",
+          "FX/blow-fire/blow-0005",
+          "FX/blow-fire/blow-0006",
+          "FX/blow-fire/blow-0007",
+          "FX/blow-fire/blow-0008",
+          "FX/blow-fire/blow-0009",
+          "FX/blow-fire/blow-0010",
+          "FX/blow-fire/blow-0011",
+          "FX/blow-fire/blow-0012",
+          "FX/blow-fire/blow-0013"
+        ]
+      },
+      "motionSource": {
+        "dragon": "flamingrock",
+        "hip": "pelvis",
+        "body": "waist",
+        "neck": "neck",
+        "jaw": "jaw",
+        "tail": "tail",
+        "foot": "ankle_r2",
+        "attack": "attack",
+        "ultimate": "special1",
+        "impact": {
+          "attack": 0.57,
+          "ultimate": 0.55
+        },
+        "title": "Flaming Rock: retragere, asalt și ridicare pentru erupție",
+        "sample": "source/legends/motion-references/flamingrock.json",
+        "samplingRate": 30
+      }
+    },
+    {
+      "id": "abyssarion",
+      "name": "Abyssarion",
+      "baseSpecies": "abyssarion",
+      "stage": "adult",
+      "stageLabel": "Legendar",
+      "legendary": true,
+      "skeleton": "models/abyssarion/skeleton.json",
+      "atlas": "models/abyssarion/rig.atlas",
+      "bounds": {
+        "x": -725.9375,
+        "y": -81.875,
+        "width": 1447.1875,
+        "height": 1063.75
+      },
+      "animationBounds": {
+        "idle": {
+          "x": -725.9375,
+          "y": -81.875,
+          "width": 1447.1875,
+          "height": 1063.75
+        },
+        "walk": {
+          "x": -725.9375,
+          "y": -81.875,
+          "width": 1447.1875,
+          "height": 1063.75
+        },
+        "attack": {
+          "x": -725.9375,
+          "y": -101.953125,
+          "width": 1479.453125,
+          "height": 1083.828125
+        },
+        "ultimate": {
+          "x": -725.9375,
+          "y": -101.953125,
+          "width": 1479.453125,
+          "height": 1083.828125
+        }
+      },
+      "reference": {
+        "image": "models/abyssarion/art.png",
+        "width": 1200,
+        "height": 900,
+        "origin": [
+          600,
+          900
+        ]
+      },
+      "animations": [
+        {
+          "name": "idle",
+          "duration": 3.16666659116745,
+          "label": "Repaus",
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 2.380000066757202,
+          "label": "Înot",
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "duration": 2.650666542053223,
+          "label": "Mușcătură abisală",
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "duration": 2.3893334579467775,
+          "label": "Vârtejul abisului",
+          "loop": false
+        }
+      ],
+      "description": "Împăratul din adâncuri",
+      "explanation": "Sea: înot ondulat, mușcătură cu avans și chemarea abisului. Curbe de mișcare din scheletul original, adaptate la această anatomie; efectele urmăresc momentul atacului.",
+      "effectSource": {
+        "archive": "basic_3026_dragon_colossuseternal_3_HD_spine-3-8-59_dxt5.zip",
+        "regions": [
+          "fx/whirlwind/water_whirlwind0001",
+          "fx/whirlwind/water_whirlwind0002",
+          "fx/whirlwind/water_whirlwind0003",
+          "fx/whirlwind/water_whirlwind0004",
+          "fx/whirlwind/water_whirlwind0005"
+        ]
+      },
+      "motionSource": {
+        "dragon": "sea",
+        "hip": "pelvis",
+        "body": "waist1",
+        "neck": "neck2",
+        "jaw": "jaw",
+        "tail": "tail_1",
+        "foot": null,
+        "attack": "attack",
+        "ultimate": "special1",
+        "impact": {
+          "attack": 0.4,
+          "ultimate": 0.43
+        },
+        "title": "Sea: înot ondulat, mușcătură cu avans și chemarea abisului",
+        "sample": "source/legends/motion-references/sea.json",
+        "samplingRate": 30
+      }
+    },
+    {
+      "id": "geolithar",
+      "name": "Geolithar",
+      "baseSpecies": "geolithar",
+      "stage": "adult",
+      "stageLabel": "Legendar",
+      "legendary": true,
+      "skeleton": "models/geolithar/skeleton.json",
+      "atlas": "models/geolithar/rig.atlas",
+      "bounds": {
+        "x": -711.8750000000001,
+        "y": -110.00000000000003,
+        "width": 1419.0625000000002,
+        "height": 1105.9375
+      },
+      "animationBounds": {
+        "idle": {
+          "x": -711.8750000000001,
+          "y": -110.00000000000003,
+          "width": 1419.0625000000002,
+          "height": 1105.9375
+        },
+        "walk": {
+          "x": -711.8750000000001,
+          "y": -110.00000000000003,
+          "width": 1419.0625000000002,
+          "height": 1105.9375
+        },
+        "attack": {
+          "x": -711.8750000000001,
+          "y": -370.3125,
+          "width": 1419.0625000000002,
+          "height": 1366.25
+        },
+        "ultimate": {
+          "x": -711.8750000000001,
+          "y": -370.3125,
+          "width": 1419.0625000000002,
+          "height": 1366.25
+        }
+      },
+      "reference": {
+        "image": "models/geolithar/art.png",
+        "width": 1200,
+        "height": 900,
+        "origin": [
+          600,
+          900
+        ]
+      },
+      "animations": [
+        {
+          "name": "idle",
+          "duration": 3.16666659116745,
+          "label": "Repaus",
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 2.666666603088379,
+          "label": "Mers greu",
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "duration": 4.10666675567627,
+          "label": "Pumn de munte",
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "duration": 4.666666488647461,
+          "label": "Fractură tectonică",
+          "loop": false
+        }
+      ],
+      "description": "Cel care mută munții",
+      "explanation": "Primal Rage: încordare, pumni alternați și lovitură tectonică. Curbe de mișcare din scheletul original, adaptate la această anatomie; efectele urmăresc momentul atacului.",
+      "effectSource": {
+        "archive": "basic_3026_dragon_colossuseternal_3_HD_spine-3-8-59_dxt5.zip",
+        "regions": [
+          "fx/impact_ground/impact_ground_0001",
+          "fx/impact_ground/impact_ground_0002",
+          "fx/impact_ground/impact_ground_0003",
+          "fx/impact_ground/impact_ground_0004",
+          "fx/impact_ground/impact_ground_0005",
+          "fx/impact_ground/impact_ground_0006",
+          "fx/impact_ground/impact_ground_0007",
+          "fx/impact_ground/impact_ground_0008",
+          "fx/impact_ground/impact_ground_0009"
+        ]
+      },
+      "motionSource": {
+        "dragon": "primal-rage",
+        "hip": "hip",
+        "body": "body1",
+        "neck": "body4",
+        "jaw": "lower_jaw",
+        "tail": "tail",
+        "foot": "foot_r",
+        "attack": "attack",
+        "ultimate": "special1",
+        "impact": {
+          "attack": 0.64,
+          "ultimate": 0.59
+        },
+        "title": "Primal Rage: încordare, pumni alternați și lovitură tectonică",
+        "sample": "source/legends/motion-references/primal-rage.json",
+        "samplingRate": 30
+      }
+    },
+    {
+      "id": "viridraxis",
+      "name": "Viridraxis",
+      "baseSpecies": "viridraxis",
+      "stage": "adult",
+      "stageLabel": "Legendar",
+      "legendary": true,
+      "skeleton": "models/viridraxis/skeleton.json",
+      "atlas": "models/viridraxis/rig.atlas",
+      "bounds": {
+        "x": -711.8750000000001,
+        "y": -53.750000000000014,
+        "width": 1419.0625,
+        "height": 1049.6875
+      },
+      "animationBounds": {
+        "idle": {
+          "x": -711.8750000000001,
+          "y": -53.750000000000014,
+          "width": 1419.0625,
+          "height": 1049.6875
+        },
+        "walk": {
+          "x": -711.8750000000001,
+          "y": -53.750000000000014,
+          "width": 1419.0625,
+          "height": 1049.6875
+        },
+        "attack": {
+          "x": -711.8750000000001,
+          "y": -53.750000000000014,
+          "width": 1559.140625,
+          "height": 1049.6875
+        },
+        "ultimate": {
+          "x": -711.8750000000001,
+          "y": -53.750000000000014,
+          "width": 1559.140625,
+          "height": 1049.6875
+        }
+      },
+      "reference": {
+        "image": "models/viridraxis/art.png",
+        "width": 1200,
+        "height": 900,
+        "origin": [
+          600,
+          900
+        ]
+      },
+      "animations": [
+        {
+          "name": "idle",
+          "duration": 3.16666659116745,
+          "label": "Repaus",
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 2.666666603088379,
+          "label": "Pândă și mers",
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "duration": 5.6000000000000005,
+          "label": "Seceri gemene",
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "duration": 3.9200000000000004,
+          "label": "Furia pădurii",
+          "loop": false
+        }
+      ],
+      "description": "Foamea pădurii străvechi",
+      "explanation": "War Thorn: pândă, recul elastic și seceri alternante. Curbe de mișcare din scheletul original, adaptate la această anatomie; efectele urmăresc momentul atacului.",
+      "effectSource": {
+        "archive": "basic_3096_dragon_ivyeternal_3_HD_spine-3-8-59_dxt5.zip",
+        "regions": [
+          "fx/eff_xplo1",
+          "fx/eff_xplo2",
+          "fx/eff_xplo3",
+          "fx/eff_xplo4"
+        ]
+      },
+      "motionSource": {
+        "dragon": "war-thorn",
+        "hip": "hip",
+        "body": "body",
+        "neck": "body_2",
+        "jaw": "lower_jaw",
+        "tail": "tail",
+        "foot": "ankle_back_r",
+        "attack": "attack",
+        "ultimate": "special1",
+        "impact": {
+          "attack": 0.54,
+          "ultimate": 0.54
+        },
+        "title": "War Thorn: pândă, recul elastic și seceri alternante",
+        "sample": "source/legends/motion-references/war-thorn.json",
+        "samplingRate": 30
+      }
+    },
+    {
+      "id": "glaciomorth",
+      "name": "Glaciomorth",
+      "baseSpecies": "glaciomorth",
+      "stage": "adult",
+      "stageLabel": "Legendar",
+      "legendary": true,
+      "skeleton": "models/glaciomorth/skeleton.json",
+      "atlas": "models/glaciomorth/rig.atlas",
+      "bounds": {
+        "x": -725.9375000000002,
+        "y": -95.9375,
+        "width": 1461.2500000000002,
+        "height": 1091.875
+      },
+      "animationBounds": {
+        "idle": {
+          "x": -725.9375000000002,
+          "y": -95.9375,
+          "width": 1461.2500000000002,
+          "height": 1091.875
+        },
+        "walk": {
+          "x": -725.9375000000002,
+          "y": -95.9375,
+          "width": 1461.2500000000002,
+          "height": 1091.875
+        },
+        "attack": {
+          "x": -725.9375000000002,
+          "y": -275,
+          "width": 1552.8906250000002,
+          "height": 1270.9375
+        },
+        "ultimate": {
+          "x": -725.9375000000002,
+          "y": -275,
+          "width": 1552.8906250000002,
+          "height": 1270.9375
+        }
+      },
+      "reference": {
+        "image": "models/glaciomorth/art.png",
+        "width": 1200,
+        "height": 900,
+        "origin": [
+          600,
+          900
+        ]
+      },
+      "animations": [
+        {
+          "name": "idle",
+          "duration": 3.16666659116745,
+          "label": "Repaus",
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 2.666666603088379,
+          "label": "Mers greu",
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "duration": 3.061333351135254,
+          "label": "Asaltul colților",
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "duration": 2.3893334579467775,
+          "label": "Zeroul etern",
+          "loop": false
+        }
+      ],
+      "description": "Iarna care merge",
+      "explanation": "Tricky Trunk: balans greu, atac cu colții și călcare de gheață. Curbe de mișcare din scheletul original, adaptate la această anatomie; efectele urmăresc momentul atacului.",
+      "effectSource": {
+        "archive": "basic_3082_dragon_avalancheeternal_3_HD_spine-3-8-59_dxt5.zip",
+        "regions": [
+          "fx/explosion1",
+          "fx/explosion2",
+          "fx/explosion3",
+          "fx/explosion4",
+          "fx/explosion5",
+          "fx/explosion6",
+          "fx/explosion7",
+          "fx/explosion8",
+          "fx/explosion9"
+        ]
+      },
+      "motionSource": {
+        "dragon": "tricky-trunk",
+        "hip": "pelvis",
+        "body": "waist",
+        "neck": "waist",
+        "jaw": "jaw",
+        "tail": "tail",
+        "foot": "ankle_r2",
+        "attack": "attack",
+        "ultimate": "special1",
+        "impact": {
+          "attack": 0.55,
+          "ultimate": 0.51
+        },
+        "title": "Tricky Trunk: balans greu, atac cu colții și călcare de gheață",
+        "sample": "source/legends/motion-references/tricky-trunk.json",
+        "samplingRate": 30
+      }
+    },
+    {
+      "id": "fulminarch",
+      "name": "Fulminarch",
+      "baseSpecies": "fulminarch",
+      "stage": "adult",
+      "stageLabel": "Legendar",
+      "legendary": true,
+      "skeleton": "models/fulminarch/skeleton.json",
+      "atlas": "models/fulminarch/rig.atlas",
+      "bounds": {
+        "x": -645.0000000000001,
+        "y": -30.937499999999986,
+        "width": 1285.3125000000002,
+        "height": 961.8750000000002
+      },
+      "animationBounds": {
+        "idle": {
+          "x": -645.0000000000001,
+          "y": -30.937499999999986,
+          "width": 1285.3125000000002,
+          "height": 961.8750000000002
+        },
+        "walk": {
+          "x": -645.0000000000001,
+          "y": -30.937499999999986,
+          "width": 1285.3125000000002,
+          "height": 961.8750000000002
+        },
+        "attack": {
+          "x": -645.0000000000001,
+          "y": -80.078125,
+          "width": 1856.015625,
+          "height": 1011.0156250000002
+        },
+        "ultimate": {
+          "x": -645.0000000000001,
+          "y": -80.078125,
+          "width": 1856.015625,
+          "height": 1011.0156250000002
+        }
+      },
+      "reference": {
+        "image": "models/fulminarch/art.png",
+        "width": 1200,
+        "height": 900,
+        "origin": [
+          600,
+          900
+        ]
+      },
+      "animations": [
+        {
+          "name": "idle",
+          "duration": 4,
+          "label": "Repaus",
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 2.6,
+          "label": "Zbor",
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "duration": 2.6,
+          "label": "Descărcare fulgerătoare",
+          "loop": false
+        },
+        {
+          "name": "ultimate",
+          "duration": 4.2,
+          "label": "Judecata furtunii",
+          "loop": false
+        }
+      ],
+      "description": "Coroana tunetului",
+      "explanation": "Dragon preistoric cu patru aripi segmentate și coadă bifurcată. Animații proprii pe articulații; efect detonare violetă din biblioteca dragonilor, sincronizat cu atacul și specialul.",
+      "effectSource": {
+        "archive": "basic_3040_dragon_bicephalouseternal_3_HD_spine-3-8-59_dxt5.zip",
+        "regions": [
+          "fx/pink_blast1",
+          "fx/pink_blast2",
+          "fx/pink_blast3",
+          "fx/pink_blast4",
+          "fx/pink_blast5",
+          "fx/pink_blast6",
+          "fx/pink_blast7",
+          "fx/pink_blast8",
+          "fx/pink_blast9",
+          "fx/pink_blast10",
+          "fx/pink_blast11",
+          "fx/pink_blast12",
+          "fx/pink_blast13"
+        ]
+      }
+    }
+  ]
+}

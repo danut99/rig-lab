@@ -1,0 +1,15 @@
+{
+  "frames": 772,
+  "bones": 22,
+  "maximumSetupError": 3.2155493553843715e-13,
+  "maximumStretch": 0.061777725198886024,
+  "minimumAreaRatio": 0.47736228969234396,
+  "referencePixelsPreserved": true,
+  "neckPixelsOnTorso": true,
+  "seamlessFlightLoops": true,
+  "neckStable": true,
+  "wingPhaseSynchronized": true,
+  "wingJointsConnected": true,
+  "skeletalMotionOnly": true,
+  "distinctGatherStrokeClimbBank": true
+}

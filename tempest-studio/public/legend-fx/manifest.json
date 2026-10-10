@@ -1,0 +1,127 @@
+[
+  {
+    "element": "fire",
+    "archive": "basic_2755_dragon_incendiary_3_HD_spine-3-8-59_dxt5.zip",
+    "regions": [
+      "FX/blow-fire/blow-0001",
+      "FX/blow-fire/blow-0002",
+      "FX/blow-fire/blow-0003",
+      "FX/blow-fire/blow-0004",
+      "FX/blow-fire/blow-0005",
+      "FX/blow-fire/blow-0006",
+      "FX/blow-fire/blow-0007",
+      "FX/blow-fire/blow-0008",
+      "FX/blow-fire/blow-0009",
+      "FX/blow-fire/blow-0010",
+      "FX/blow-fire/blow-0011",
+      "FX/blow-fire/blow-0012",
+      "FX/blow-fire/blow-0013"
+    ],
+    "label": "Jet de foc",
+    "frames": 13,
+    "columns": 4,
+    "tile": 256,
+    "width": 200,
+    "height": 91
+  },
+  {
+    "element": "water",
+    "archive": "basic_3026_dragon_colossuseternal_3_HD_spine-3-8-59_dxt5.zip",
+    "regions": [
+      "fx/whirlwind/water_whirlwind0001",
+      "fx/whirlwind/water_whirlwind0002",
+      "fx/whirlwind/water_whirlwind0003",
+      "fx/whirlwind/water_whirlwind0004",
+      "fx/whirlwind/water_whirlwind0005"
+    ],
+    "label": "Vârtej acvatic",
+    "frames": 5,
+    "columns": 4,
+    "tile": 256,
+    "width": 84,
+    "height": 139
+  },
+  {
+    "element": "earth",
+    "archive": "basic_3026_dragon_colossuseternal_3_HD_spine-3-8-59_dxt5.zip",
+    "regions": [
+      "fx/impact_ground/impact_ground_0001",
+      "fx/impact_ground/impact_ground_0002",
+      "fx/impact_ground/impact_ground_0003",
+      "fx/impact_ground/impact_ground_0004",
+      "fx/impact_ground/impact_ground_0005",
+      "fx/impact_ground/impact_ground_0006",
+      "fx/impact_ground/impact_ground_0007",
+      "fx/impact_ground/impact_ground_0008",
+      "fx/impact_ground/impact_ground_0009"
+    ],
+    "label": "Undă de impact",
+    "frames": 9,
+    "columns": 4,
+    "tile": 256,
+    "width": 119,
+    "height": 95
+  },
+  {
+    "element": "ice",
+    "archive": "basic_3082_dragon_avalancheeternal_3_HD_spine-3-8-59_dxt5.zip",
+    "regions": [
+      "fx/explosion1",
+      "fx/explosion2",
+      "fx/explosion3",
+      "fx/explosion4",
+      "fx/explosion5",
+      "fx/explosion6",
+      "fx/explosion7",
+      "fx/explosion8",
+      "fx/explosion9"
+    ],
+    "label": "Explozie glaciară",
+    "frames": 9,
+    "columns": 4,
+    "tile": 256,
+    "width": 133,
+    "height": 133
+  },
+  {
+    "element": "plant",
+    "archive": "basic_3096_dragon_ivyeternal_3_HD_spine-3-8-59_dxt5.zip",
+    "regions": [
+      "fx/eff_xplo1",
+      "fx/eff_xplo2",
+      "fx/eff_xplo3",
+      "fx/eff_xplo4"
+    ],
+    "label": "Explozie vegetală",
+    "frames": 4,
+    "columns": 4,
+    "tile": 256,
+    "width": 198,
+    "height": 149
+  },
+  {
+    "element": "storm",
+    "archive": "basic_3040_dragon_bicephalouseternal_3_HD_spine-3-8-59_dxt5.zip",
+    "regions": [
+      "fx/pink_blast1",
+      "fx/pink_blast2",
+      "fx/pink_blast3",
+      "fx/pink_blast4",
+      "fx/pink_blast5",
+      "fx/pink_blast6",
+      "fx/pink_blast7",
+      "fx/pink_blast8",
+      "fx/pink_blast9",
+      "fx/pink_blast10",
+      "fx/pink_blast11",
+      "fx/pink_blast12",
+      "fx/pink_blast13"
+    ],
+    "label": "Detonare violetă",
+    "frames": 13,
+    "columns": 4,
+    "tile": 256,
+    "width": 70,
+    "height": 58
+  }
+]

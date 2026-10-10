@@ -1,0 +1,157 @@
+{
+  "model": {
+    "model": "frondonychus-juvenil",
+    "bones": 21,
+    "slots": 7
+  },
+  "poses": 18,
+  "results": [
+    {
+      "animation": "idle",
+      "phase": 0,
+      "maxGap": 5.859285502108464e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.2,
+      "maxGap": 5.859285502108464e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.4,
+      "maxGap": 6.355287432313019e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.6,
+      "maxGap": 5.684341886080802e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.8,
+      "maxGap": 2.842170943040401e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.999,
+      "maxGap": 5.684341886080802e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0,
+      "maxGap": 1.214175959108492e-13,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.2,
+      "maxGap": 5.684341886080802e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.4,
+      "maxGap": 8.038873388460929e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.6,
+      "maxGap": 8.038873388460929e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.8,
+      "maxGap": 5.684341886080802e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "walk",
+      "phase": 0.999,
+      "maxGap": 6.355287432313019e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0,
+      "maxGap": 5.859285502108464e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.2,
+      "maxGap": 1.0247593068766007e-13,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.4,
+      "maxGap": 6.355287432313019e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.6,
+      "maxGap": 5.684341886080802e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.8,
+      "maxGap": 5.859285502108464e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.999,
+      "maxGap": 5.859285502108464e-14,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 340,
+      "continuousSurface": true
+    }
+  ],
+  "mobileOverflow": false,
+  "errors": [],
+  "speciesSwitch": true
+}

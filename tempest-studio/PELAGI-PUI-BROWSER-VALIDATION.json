@@ -1,0 +1,157 @@
+{
+  "model": {
+    "model": "pelagisaur-pui",
+    "bones": 13,
+    "slots": 1
+  },
+  "poses": 18,
+  "results": [
+    {
+      "animation": "idle",
+      "phase": 0,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.2,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.4,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.6,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.8,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "idle",
+      "phase": 0.999,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "swim",
+      "phase": 0,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "swim",
+      "phase": 0.2,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "swim",
+      "phase": 0.4,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "swim",
+      "phase": 0.6,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "swim",
+      "phase": 0.8,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "swim",
+      "phase": 0.999,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.2,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.4,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.6,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.8,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    },
+    {
+      "animation": "attack",
+      "phase": 0.999,
+      "maxGap": 0,
+      "maxSurfaceGap": 0,
+      "sharedVertices": 0,
+      "continuousSurface": true
+    }
+  ],
+  "mobileOverflow": false,
+  "errors": [],
+  "speciesSwitch": true
+}

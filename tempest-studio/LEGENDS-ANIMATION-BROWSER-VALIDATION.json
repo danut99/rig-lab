@@ -1,0 +1,881 @@
+{
+  "results": [
+    {
+      "id": "abyssarion",
+      "poses": [
+        {
+          "animation": "idle",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 0.7916666477918625,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 1.583333295583725,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 2.3749999433755873,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 3.1665665911674497,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 0.5950000166893005,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 1.190000033378601,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 1.7850000500679015,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 2.3799000667572017,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 0.6626666355133057,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 1.3253332710266115,
+          "finite": true,
+          "fxVisible": true,
+          "fxAlpha": 1
+        },
+        {
+          "animation": "attack",
+          "t": 1.9879999065399172,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 2.6505665420532227,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 0.5973333644866944,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 1.1946667289733888,
+          "finite": true,
+          "fxVisible": true,
+          "fxAlpha": 1
+        },
+        {
+          "animation": "ultimate",
+          "t": 1.792000093460083,
+          "finite": true,
+          "fxVisible": true,
+          "fxAlpha": 1
+        },
+        {
+          "animation": "ultimate",
+          "t": 2.3892334579467773,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        }
+      ],
+      "bones": 23
+    },
+    {
+      "id": "geolithar",
+      "poses": [
+        {
+          "animation": "idle",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 0.7916666477918625,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 1.583333295583725,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 2.3749999433755873,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 3.1665665911674497,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 0.6666666507720947,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 1.3333333015441895,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 1.9999999523162844,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 2.666566603088379,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 1.0266666889190674,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 2.053333377838135,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 3.0800000667572025,
+          "finite": true,
+          "fxVisible": true,
+          "fxAlpha": 1
+        },
+        {
+          "animation": "attack",
+          "t": 4.10656675567627,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 1.1666666221618653,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 2.3333332443237307,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 3.499999866485596,
+          "finite": true,
+          "fxVisible": true,
+          "fxAlpha": 0.023810436935776336
+        },
+        {
+          "animation": "ultimate",
+          "t": 4.666566488647462,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        }
+      ],
+      "bones": 22
+    },
+    {
+      "id": "viridraxis",
+      "poses": [
+        {
+          "animation": "idle",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 0.7916666477918625,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 1.583333295583725,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 2.3749999433755873,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 3.1665665911674497,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 0.6666666507720947,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 1.3333333015441895,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 1.9999999523162844,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 2.666566603088379,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 1.4000000000000001,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 2.8000000000000003,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 4.2,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 5.599900000000001,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 0.9800000000000001,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 1.9600000000000002,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 2.9400000000000004,
+          "finite": true,
+          "fxVisible": true,
+          "fxAlpha": 1
+        },
+        {
+          "animation": "ultimate",
+          "t": 3.9199,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        }
+      ],
+      "bones": 37
+    },
+    {
+      "id": "glaciomorth",
+      "poses": [
+        {
+          "animation": "idle",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 0.7916666477918625,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 1.583333295583725,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 2.3749999433755873,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 3.1665665911674497,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 0.6666666507720947,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 1.3333333015441895,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 1.9999999523162844,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 2.666566603088379,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 0.7653333377838135,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 1.530666675567627,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 2.2960000133514407,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 3.061233351135254,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 0.5973333644866944,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 1.1946667289733888,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0.20133377242064887
+        },
+        {
+          "animation": "ultimate",
+          "t": 1.792000093460083,
+          "finite": true,
+          "fxVisible": true,
+          "fxAlpha": 1
+        },
+        {
+          "animation": "ultimate",
+          "t": 2.3892334579467773,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        }
+      ],
+      "bones": 23
+    },
+    {
+      "id": "fulminarch",
+      "poses": [
+        {
+          "animation": "idle",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 1,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 2,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 3,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 3.9999,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 0.65,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 1.3,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 1.9500000000000002,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 2.5999,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 0.65,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 1.3,
+          "finite": true,
+          "fxVisible": true,
+          "fxAlpha": 1
+        },
+        {
+          "animation": "attack",
+          "t": 1.9500000000000002,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 2.5999,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 1.05,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 2.1,
+          "finite": true,
+          "fxVisible": true,
+          "fxAlpha": 1
+        },
+        {
+          "animation": "ultimate",
+          "t": 3.1500000000000004,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 4.1999,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        }
+      ],
+      "bones": 34
+    },
+    {
+      "id": "calderox",
+      "poses": [
+        {
+          "animation": "idle",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 0.7916666477918625,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 1.583333295583725,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 2.3749999433755873,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "idle",
+          "t": 3.1665665911674497,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 0.6666666507720947,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 1.3333333015441895,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 1.9999999523162844,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "walk",
+          "t": 2.666566603088379,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 0.6066666889190674,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 1.2133333778381348,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "attack",
+          "t": 1.8200000667572023,
+          "finite": true,
+          "fxVisible": true,
+          "fxAlpha": 1
+        },
+        {
+          "animation": "attack",
+          "t": 2.4265667556762693,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 0,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 0.7000000000000001,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 1.4000000000000001,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        },
+        {
+          "animation": "ultimate",
+          "t": 2.1,
+          "finite": true,
+          "fxVisible": true,
+          "fxAlpha": 1
+        },
+        {
+          "animation": "ultimate",
+          "t": 2.7999,
+          "finite": true,
+          "fxVisible": false,
+          "fxAlpha": 0
+        }
+      ],
+      "bones": 29
+    }
+  ],
+  "errors": []
+}
