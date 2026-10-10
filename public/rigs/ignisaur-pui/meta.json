@@ -1,0 +1,48 @@
+{
+  "id": "ignisaur-pui",
+  "name": "Ignisaur · pui",
+  "species": "ignisaur",
+  "age": "pui",
+  "body": "biped",
+  "skeleton": "rigs/ignisaur-pui/skeleton.json",
+  "atlas": "rigs/ignisaur-pui/rig.atlas",
+  "art": "rigs/ignisaur-pui/art.png",
+  "artRect": {
+    "x": -384.3187855787476,
+    "y": -53.98292220113852,
+    "width": 760.7134724857685,
+    "height": 507.1423149905123
+  },
+  "bounds": {
+    "x": -292.49,
+    "y": -31.98,
+    "width": 585.47,
+    "height": 485.43
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "label": "Repaus",
+      "duration": 3.2,
+      "loop": true
+    },
+    {
+      "name": "walk",
+      "label": "Mers",
+      "duration": 1.25,
+      "loop": true
+    },
+    {
+      "name": "attack",
+      "label": "Mușcătură",
+      "duration": 1.8,
+      "loop": false
+    },
+    {
+      "name": "ultimate",
+      "label": "Răget de jar",
+      "duration": 3.2,
+      "loop": false
+    }
+  ]
+}

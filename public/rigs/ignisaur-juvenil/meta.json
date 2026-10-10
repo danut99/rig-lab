@@ -1,0 +1,48 @@
+{
+  "id": "ignisaur-juvenil",
+  "name": "Ignisaur · juvenil",
+  "species": "ignisaur",
+  "age": "juvenil",
+  "body": "biped",
+  "skeleton": "rigs/ignisaur-juvenil/skeleton.json",
+  "atlas": "rigs/ignisaur-juvenil/rig.atlas",
+  "art": "rigs/ignisaur-juvenil/art.png",
+  "artRect": {
+    "x": -370.56561859193437,
+    "y": -73.87012987012987,
+    "width": 746.4771018455228,
+    "height": 497.6514012303486
+  },
+  "bounds": {
+    "x": -386.96,
+    "y": -31.46,
+    "width": 774.4,
+    "height": 434.21
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "label": "Repaus",
+      "duration": 3.2,
+      "loop": true
+    },
+    {
+      "name": "walk",
+      "label": "Mers",
+      "duration": 1.45,
+      "loop": true
+    },
+    {
+      "name": "attack",
+      "label": "Mușcătură",
+      "duration": 1.8,
+      "loop": false
+    },
+    {
+      "name": "ultimate",
+      "label": "Răget de jar",
+      "duration": 3.2,
+      "loop": false
+    }
+  ]
+}

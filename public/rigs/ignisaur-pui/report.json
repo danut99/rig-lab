@@ -1,0 +1,28 @@
+{
+  "id": "ignisaur-pui",
+  "restDiffer": "0%",
+  "animations": {
+    "idle": {
+      "stretch": 1.13,
+      "squash": 0.86,
+      "flipped": 0
+    },
+    "walk": {
+      "stretch": 1.63,
+      "squash": 0.46,
+      "flipped": 0
+    },
+    "attack": {
+      "stretch": 1.36,
+      "squash": 0.71,
+      "flipped": 0
+    },
+    "ultimate": {
+      "stretch": 1.51,
+      "squash": 0.58,
+      "flipped": 0
+    }
+  },
+  "problems": [],
+  "ok": true
+}

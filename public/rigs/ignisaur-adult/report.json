@@ -1,0 +1,28 @@
+{
+  "id": "ignisaur-adult",
+  "restDiffer": "0%",
+  "animations": {
+    "idle": {
+      "stretch": 1.15,
+      "squash": 0.81,
+      "flipped": 0
+    },
+    "walk": {
+      "stretch": 2.06,
+      "squash": 0.29,
+      "flipped": 0
+    },
+    "attack": {
+      "stretch": 1.49,
+      "squash": 0.46,
+      "flipped": 0
+    },
+    "ultimate": {
+      "stretch": 1.83,
+      "squash": 0.39,
+      "flipped": 0
+    }
+  },
+  "problems": [],
+  "ok": true
+}

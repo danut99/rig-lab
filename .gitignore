@@ -1,7 +1,17 @@
 out/
-# Repo-ul ține doar Tempest Studio (restul rig-lab rămâne local).
+# Repo-ul ține Tempest Studio și puținul de care au nevoie scripturile lui din rig-lab; restul rămâne local.
 /*
 !/.gitignore
 !/tempest-studio/
-# Modelele generate (1,8 GB) rămân locale: se refac din source/ cu `npm ci && npm run build` în tempest-studio.
+# folosite de tempest-studio/scripts/build-legend-rigs.mjs
+!/scripts/
+/scripts/*
+!/scripts/lib/
+# copiate de tempest-studio/scripts/import-ignisaur.mjs
+!/public/
+/public/*
+!/public/rigs/
+/public/rigs/*
+!/public/rigs/ignisaur-*/
+# Modelele generate (1,8 GB) rămân locale: se refac după pașii din tempest-studio/README.md.
 /tempest-studio/public/models/

@@ -1,0 +1,48 @@
+{
+  "id": "ignisaur-adult",
+  "name": "Ignisaur · adult",
+  "species": "ignisaur",
+  "age": "adult",
+  "body": "biped",
+  "skeleton": "rigs/ignisaur-adult/skeleton.json",
+  "atlas": "rigs/ignisaur-adult/rig.atlas",
+  "art": "rigs/ignisaur-adult/art.png",
+  "artRect": {
+    "x": -460.8944182918628,
+    "y": -67.182246133154,
+    "width": 929.6570275722931,
+    "height": 619.7713517148621
+  },
+  "bounds": {
+    "x": -481.82,
+    "y": -31.82,
+    "width": 964.84,
+    "height": 559.93
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "label": "Repaus",
+      "duration": 3.2,
+      "loop": true
+    },
+    {
+      "name": "walk",
+      "label": "Mers",
+      "duration": 1.65,
+      "loop": true
+    },
+    {
+      "name": "attack",
+      "label": "Mușcătură",
+      "duration": 1.8,
+      "loop": false
+    },
+    {
+      "name": "ultimate",
+      "label": "Răget de jar",
+      "duration": 3.2,
+      "loop": false
+    }
+  ]
+}

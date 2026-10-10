@@ -1,0 +1,28 @@
+{
+  "id": "ignisaur-juvenil",
+  "restDiffer": "0%",
+  "animations": {
+    "idle": {
+      "stretch": 1.16,
+      "squash": 0.82,
+      "flipped": 0
+    },
+    "walk": {
+      "stretch": 1.64,
+      "squash": 0.25,
+      "flipped": 0
+    },
+    "attack": {
+      "stretch": 1.32,
+      "squash": 0.59,
+      "flipped": 0
+    },
+    "ultimate": {
+      "stretch": 1.53,
+      "squash": 0.34,
+      "flipped": 0
+    }
+  },
+  "problems": [],
+  "ok": true
+}
