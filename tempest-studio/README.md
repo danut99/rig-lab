@@ -1,5 +1,30 @@
 # Tempest Studio
 
+## Cum refaci modelele după clonare
+
+Modelele generate (`public/models`, ~1,8 GB) nu sunt în git. Le refaci din sursele din repo:
+
+```bash
+git clone https://github.com/danut99/rig-lab.git
+cd rig-lab/tempest-studio
+npm ci                                  # pngjs și playwright-core
+npm run build                           # 36 de riguri: 12 specii × pui/juvenil/adult, din source/ (Tempestopteryx adult în public/model)
+node scripts/build-legend-rigs.mjs      # cei 6 legendari (folosește ../scripts/lib și public/legend-fx)
+node scripts/import-ignisaur.mjs        # Ignisaur pui/juvenil/adult, copiat din ../public/rigs
+```
+
+Verificare: `npm test`, apoi `npm start` și deschizi http://127.0.0.1:5190.
+
+De știut:
+
+- Ai nevoie de Node 18 sau mai nou (testat cu Node 22).
+- Nu folosi `npm run build:legends`: rulează întâi `select-legend-fx.py`, care citește arhivele de dragoni din
+  `DCAT-main` (nu sunt în repo). Rezultatul lui, `public/legend-fx`, e deja în repo, deci ajunge pasul cu
+  `build-legend-rigs.mjs`.
+- O singură specie: `npm run build:<specie>` sau `npm run build:<specie>:pui` (lista e în `package.json`).
+- Jocul (repo-ul `dino-world`) citește modelele din `../rig-lab/tempest-studio/public/models`: clonează cele două
+  repo-uri unul lângă altul.
+
 Leg shape preservation: each leg has separate upper, lower and foot sections. The front knee uses a synchronized soft hinge; the back lower leg remains rigid. Feet remain rigid. There are 22 bones and 11 drawing slots. Browser validation checks the rigid bindings and applied hip/knee mesh timelines.
 
 Walking studies: **Robo Ravager Dragon · Adult** and **Stokes Twins Dragons · Adult**. Their sampled motion is preserved in `source/fulgurodrome/*-walk.json`; the `sample-robo.mjs` and `sample-stokes.mjs` scripts reproduce the samples. Fulgurodrome now uses its own 1.6-second biped gait rather than transferred foot channels: alternating support, raised recovery, connected leg IK and matching foot velocity at lift-off/touchdown/loop. Its silhouette and perspective stay unchanged. Validation checks 676 frames, thigh texture seams, heel weights and continuous foot velocity.
