@@ -1,5 +1,4 @@
 import {createDinosaurPlayer} from './runtime/dinosaur-runtime.js';
-const legendsLink=document.createElement('a');legendsLink.href='/legends.html';legendsLink.textContent='✦ Legendarii';legendsLink.style.cssText='color:#dec798;text-decoration:none;font-size:13px;margin-left:auto;margin-right:18px';document.querySelector('header').append(legendsLink);
 const $=id=>document.getElementById(id),catalog=await fetch('/manifest.json').then(r=>r.json()),params=new URLSearchParams(location.search),requested=params.get('species'),requestedModel=catalog.models.find(m=>m.id===requested)||catalog.models[0],baseId=requestedModel.baseSpecies||requestedModel.id,variants=catalog.models.filter(m=>(m.baseSpecies||m.id)===baseId),model=variants.find(m=>(m.stage||'adult')===params.get('stage'))||requestedModel;
 const speciesSelect=document.createElement('select');speciesSelect.id='species';speciesSelect.setAttribute('aria-label','Specie');
 const species=new Map();catalog.models.forEach(m=>{const base=m.baseSpecies||m.id;if(!species.has(base)||m.id===base)species.set(base,m);});
@@ -8,7 +7,7 @@ speciesSelect.onchange=()=>{const url=new URL(location.href);url.searchParams.se
 if(variants.length>1){const stageSelect=document.createElement('select');stageSelect.id='age';stageSelect.setAttribute('aria-label','Varsta');for(const [value,label] of [['pui','Copil'],['juvenil','Juvenil'],['adult','Adult']])if(variants.some(m=>(m.stage||'adult')===value))stageSelect.add(new Option(label,value));stageSelect.value=model.stage||'adult';stageSelect.onchange=()=>{const url=new URL(location.href);url.searchParams.set('species',baseId);url.searchParams.set('stage',stageSelect.value);location.assign(url);};document.querySelector('header').append(stageSelect);}
 document.querySelector('.tabs > span').textContent='Model animat - '+(model.stageLabel||'Adult');
 document.title=model.name+' · Rig Studio';document.querySelector('header small').textContent='RIG LAB / '+model.id.toUpperCase();document.querySelector('h1').textContent=model.name;
-const reference=model.reference||{image:'model/reference.png',width:1536,height:1024,origin:[860,630]};
+const reference=model.reference||{image:'',width:0,height:0,origin:[0,0]};
 $('reference').querySelector('img').src=reference.image;$('reference').querySelector('img').alt=model.name+' · original';
 document.querySelector('.explanation strong').textContent=model.description||'Gât stabil. Bătaie comună.';
 if(model.explanation)document.querySelector('.explanation p').textContent=model.explanation;

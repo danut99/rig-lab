@@ -1,0 +1,22 @@
+{
+  "poses": [
+    {
+      "name": "idle",
+      "duration": 4,
+      "frames": 5
+    },
+    {
+      "name": "walk",
+      "duration": 2.200000047683716,
+      "frames": 5
+    },
+    {
+      "name": "attack",
+      "duration": 2.0999999046325684,
+      "frames": 5
+    }
+  ],
+  "errors": [],
+  "bones": 21,
+  "meshes": 2
+}
