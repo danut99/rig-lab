@@ -1,0 +1,42 @@
+{
+  "pages": [
+    {
+      "name": "walk-back",
+      "x0": 403,
+      "y0": 908,
+      "w": 529,
+      "h": 114
+    },
+    {
+      "name": "walk-staff",
+      "x0": 978,
+      "y0": 95,
+      "w": 270,
+      "h": 1107
+    },
+    {
+      "name": "walk-body",
+      "x0": 12,
+      "y0": 10,
+      "w": 1146,
+      "h": 1063
+    },
+    {
+      "name": "walk-farLeg",
+      "x0": 711,
+      "y0": 917,
+      "w": 286,
+      "h": 304
+    },
+    {
+      "name": "walk-nearLeg",
+      "x0": 299,
+      "y0": 917,
+      "w": 345,
+      "h": 328
+    }
+  ],
+  "bodyVertices": 1111,
+  "limbVertices": 507,
+  "method": "Two continuous leg surfaces with rigid toes, no knee cut lines, and a newly authored wide-stance gait."
+}

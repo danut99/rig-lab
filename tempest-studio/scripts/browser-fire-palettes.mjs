@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {chromium} from 'playwright-core';
+const config=process.env.PALETTE_CONFIG?JSON.parse(fs.readFileSync(process.env.PALETTE_CONFIG)):null;
+const roles=config?config.map(c=>[c.id,c.base]):[['fire-shaman','verdant-shaman'],['fire-warrior','azure-warrior'],['fire-protector','jade-protector']];
+const browser=await chromium.launch({channel:'msedge'}),report=[];
+try{for(const [id,base]of roles){
+ assert.deepEqual(JSON.parse(fs.readFileSync(`public/models/${id}/animated.json`)),JSON.parse(fs.readFileSync(`source/${id}/base-animated.json`)));
+ const page=await browser.newPage({viewport:{width:1400,height:950}}),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(`http://127.0.0.1:5190/?species=${id}`);await page.waitForFunction(()=>window.studioPlayer?.loaded);assert.equal(await page.locator('#palette').inputValue(),config?.find(c=>c.id===id)?.palette||'fire');await page.locator('#view').selectOption('art');await page.locator('#pause').click();
+ fs.mkdirSync(`captures/${id}`,{recursive:true});
+ for(const name of ['idle','walk','attack']){await page.locator(`[data-animation="${name}"]`).click();const duration=await page.evaluate(()=>window.studioPlayer.raw.animationState.getCurrent(0).animation.duration);for(let i=0;i<8;i++){const state=await page.evaluate(time=>{const p=window.studioPlayer;p.setPaused(true);p.seek(time);let finite=true;for(const slot of p.raw.skeleton.slots){const a=slot.getAttachment();if(!a)continue;const mesh=typeof a.worldVerticesLength==='number',v=new Float32Array(mesh?a.worldVerticesLength:8);if(mesh)a.computeWorldVertices(slot,0,v.length,v,0,2);else a.computeWorldVertices(slot.bone,v,0,2);finite&&=[...v].every(Number.isFinite);}return {finite,parts:p.raw.skeleton.slots.filter(s=>s.getAttachment()).length};},duration*i/8);assert.ok(state.finite);assert.equal(state.parts,name==='idle'?(base==='jade-protector'?3:2):(base==='verdant-shaman'?5:6));}
+ await page.evaluate(t=>{window.studioPlayer.seek(t);window.studioPlayer.raw.drawFrame(false);},duration*(name==='attack'?.54:.2));await page.screenshot({path:`captures/${id}/${name}.png`});const encoded=await page.evaluate(()=>{window.studioPlayer.raw.drawFrame(false);return window.studioPlayer.canvas.toDataURL('image/png').split(',')[1];});fs.writeFileSync(`public/models/${id}/${name}-preview.png`,Buffer.from(encoded,'base64'));}
+ await page.locator('#palette').selectOption('original');await page.waitForURL(`**species=${base}`);await page.waitForFunction(()=>window.studioPlayer?.loaded);assert.equal(await page.locator('#palette').inputValue(),'original');assert.deepEqual(errors,[]);report.push({id,exactRig:true,animations:3,framesChecked:24,errors});await page.close();
+}}finally{await browser.close();}fs.writeFileSync(config?'ELEMENT-PALETTES-VALIDATION.json':'FIRE-PALETTES-VALIDATION.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));

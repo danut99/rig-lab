@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Verdant Shaman · Editor de oase</title><link rel="icon" href="data:,"><link rel="stylesheet" href="studio.css"><link rel="stylesheet" href="editor.css"></head>
+<body>
+<header><div><small>RIG LAB / VERDANT-SHAMAN</small><h1>Editor de oase</h1></div><span id="status">Se încarcă…</span>
+<div class="actions"><button id="undo" disabled>↶ Anulează</button><button id="add">＋ Os nou</button><button id="save" disabled>Salvează</button><button id="build">⟳ Reconstruiește</button><button id="validate">✓ Validează</button><a href="/?species=verdant-shaman">Studio →</a></div></header>
+<main>
+<section class="viewport"><div class="tabs"><span id="hint">Stânga: unde stă osul (trage de cercuri). Dreapta: cum se mișcă (trage pe personaj).</span><div><label class="check"><input id="labels" type="checkbox" checked> Nume</label><label class="check"><input id="mesh" type="checkbox"> Plasă</label><label class="check"><input id="showBones" type="checkbox" checked> Schelet</label></div></div>
+<div class="canvases">
+<div class="board-wrap"><div id="board" class="board"><img id="refimg" alt="Referința Verdant Shaman"><canvas id="heat"></canvas><svg id="overlay" viewBox="0 0 1280 1280" preserveAspectRatio="none"></svg></div><span class="canvas-label">REFERINȚĂ · POZIȚIA OASELOR</span><span id="coords" class="canvas-label right">—</span></div>
+<div id="stage"><div id="player"></div><canvas id="pose"></canvas><span class="canvas-label">ANIMAȚIE · TRAGE CA SĂ ROTEȘTI OSUL ALES</span><span id="poseHint" class="stage-hint"></span></div>
+</div>
+<footer><div class="transport"><div id="anims" class="animations"></div><button id="pause">Ⅱ Pauză</button></div><label class="scrub">Cadru <output id="time">0.00 s</output><div class="scrub-track"><input id="scrub" type="range" min="0" max="4" step="0.01" value="0"><div id="ticks"></div></div></label></footer></section>
+<aside>
+<small>AI · ANIMAȚIE</small>
+<p id="aiStatus" class="empty">Se verifică AI-ul…</p>
+<textarea id="aiPrompt" rows="3" placeholder="ex.: coada se leagănă încet de două ori, capul se înclină puțin spre dreapta la mijloc" spellcheck="false"></textarea>
+<label class="check"><input id="aiOnlySelected" type="checkbox"> Doar oasele selectate</label>
+<button id="aiAnimate" type="button" class="ai" disabled>✨ Animează</button>
+<p class="empty">AI-ul propune cadre pentru animația aleasă jos (se adaugă peste mișcarea existentă). Le vezi imediat; Anulează le scoate, iar „Reconstruiește” le scrie în rig.</p>
+<hr><small>PIESE</small>
+<p class="empty">Bucăți tăiate din pictură, fiecare pe osul ei; o piesă se poate tăia din alta (ochiul din cap). Ordinea din listă e ordinea de desenare.</p>
+<div id="partList" class="tree"></div>
+<div class="transport"><button id="addPart" type="button">＋ Piesă nouă</button><button id="drawPart" type="button" disabled>✎ Contur</button></div>
+<div id="partFields" hidden>
+<label>Nume (litere mici, fără spații) <input id="partName" spellcheck="false"></label>
+<label>Se mișcă cu osul <select id="partBone"></select></label>
+<div class="pair"><label>Margine moale (px) <input id="partFeather" type="number" min="0" max="60" step="1"></label><label>Umplere în spate (px) <input id="partReach" type="number" min="0" max="400" step="5"></label></div>
+<p class="empty">Conturul galben e tăietura: trage de puncte, „+” adaugă un punct, click dreapta pe un punct îl șterge, „✎ Contur” îl desenează din nou (click pe puncte, dublu-click sau Enter la final). Ce rămâne în spate se umple automat sau din <code>hidden-&lt;nume&gt;.png</code>. „Reconstruiește” ca să vezi.</p>
+<div class="ai-box">
+<label>Ce să decupeze AI-ul <input id="aiWhat" placeholder="ex.: ochiul, cornul din față, clapa pelerinei" spellcheck="false"></label>
+<button id="aiSegment" type="button" class="ai" disabled>✨ Decupează cu AI</button>
+<button id="aiFill" type="button" class="ai" disabled>✨ Pictează ce e în spate</button>
+<div id="aiHidden" hidden><img id="aiHiddenImg" alt="Ce e în spatele piesei"><button id="aiHiddenRemove" type="button">Folosește umplerea automată</button></div>
+<p class="empty">Decuparea înlocuiește conturul piesei (îl poți corecta apoi). Pictura din spate are nevoie de piesa activă și reconstruită; AI-ul primește referința și golul piesei și scrie <code>hidden-&lt;nume&gt;.png</code>. Apoi „Reconstruiește”.</p>
+</div>
+<button id="deletePart" type="button">Șterge piesa</button>
+</div>
+<hr><small>OASE</small><div id="tree" class="tree"></div>
+<hr><small>OSUL ALES</small><p id="propsEmpty" class="empty">Alege un os din imagine sau din listă.</p>
+<form id="props" hidden onsubmit="return false">
+<p id="groupNote" class="empty group-note"></p>
+<label>Nume <input id="pName" spellcheck="false"></label>
+<label>Părinte <select id="pParent"></select></label>
+<div class="pair"><label>Origine X <input id="pFromX" type="number" step="1"></label><label>Origine Y <input id="pFromY" type="number" step="1"></label></div>
+<div class="pair"><label>Vârf X <input id="pToX" type="number" step="1"></label><label>Vârf Y <input id="pToY" type="number" step="1"></label></div>
+<div class="readout">Lungime / unghi: <output id="pLength">—</output></div>
+<div id="brushFields">
+<div class="keys-head"><strong>Pensulă · cât urmează pielea osul</strong></div>
+<div class="transport"><button id="brushAdd" type="button">＋ Adaugă</button><button id="brushRemove" type="button">− Șterge</button></div>
+<div class="pair"><label>Mărime (px) <input id="brushRadius" type="range" min="5" max="150" step="1" value="30"></label><label>Putere <input id="brushStrength" type="range" min="0.1" max="1" step="0.05" value="1"></label></div>
+<p class="empty">Alege „Adaugă” sau „Șterge”, apoi pictează pe referință. Portocaliul se schimbă pe loc; personajul animat se schimbă după „Reconstruiește”. „Șterge” dă pielea osului părinte. Pensula lucrează pe pictura corpului, nu pe piese.</p>
+<div class="transport"><output id="brushCount" class="readout"></output><button id="brushClear" type="button">Șterge pensulările osului</button></div>
+</div>
+<div id="motionFields">
+<div class="keys-head"><strong>Mișcare · <span id="keysAnim">—</span></strong><span class="readout">unghi adăugat: <output id="angleNow">0°</output></span></div>
+<p id="keysNote" class="empty"></p>
+<p class="empty">Pune pauză, alege momentul cu bara de jos, apoi trage pe personaj: osul se rotește după mouse și cadrul se salvează singur la acel moment. Pe oasele inițiale cadrele se adaugă peste mișcarea existentă (respirație, mers, atac). Între cadre trecerea e lină. Liniuțele de pe bară sunt cadrele; apasă-le ca să sari la ele. „Reconstruiește” scrie mișcarea în rig.</p>
+<details><summary>Reglaj fin: lista cadrelor</summary>
+<div id="keys" class="keys"></div>
+<button id="addKey" type="button">＋ Cadru la timpul curent</button>
+<p class="empty">Timp (s) și unghi (°). Repaus și mers se repetă, deci ultimul cadru revine în primul; atacul ține valorile de la capete.</p>
+</details>
+<details><summary>Balans automat</summary>
+<div class="pair"><label>Balans ° <input id="pAmp" type="number" step="0.5"></label><label>Cicluri / animație <input id="pCycles" type="number" step="0.5" min="0"></label></div>
+<label>Fază ° <input id="pPhase" type="number" step="5"></label>
+</details>
+</div>
+<div id="customFields">
+<label>Rază de influență (px referință) <input id="pRadius" type="number" min="1" max="600" step="1"></label>
+<button id="delete" type="button">Șterge osul</button>
+</div>
+<p id="lockedNote" class="empty">Os folosit de cod după nume: poți muta punctele, părintele și adăuga mișcare, nu numele.</p>
+</form>
+<hr><small>VERSIUNI</small>
+<p class="empty">Pictura originală nu se modifică niciodată; rigul e refăcut din ea. Fiecare salvare păstrează copia anterioară a oaselor aici.</p>
+<label>Revino la <select id="versionList"></select></label>
+<div class="transport"><button id="restoreVersion" type="button">↩ Revino</button><button id="restoreOriginal" type="button">Originalul</button></div>
+<hr><small>JURNAL</small><pre id="log"></pre>
+</aside>
+</main>
+<script type="module" src="editor.js"></script>
+</body></html>

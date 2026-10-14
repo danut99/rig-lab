@@ -1,0 +1,5 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {chromium} from 'playwright-core';
+const browser=await chromium.launch({channel:'msedge'});
+try{const page=await browser.newPage({viewport:{width:1150,height:950}}),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('http://127.0.0.1:5190/palettes.html');assert.equal(await page.locator('section').count(),9);assert.equal(await page.locator('article').count(),27);await page.locator('img').evaluateAll(images=>images.forEach(i=>i.loading='eager'));await page.waitForFunction(()=>[...document.images].every(i=>i.complete&&i.naturalWidth>0));fs.mkdirSync('captures/palettes',{recursive:true});for(const section of await page.locator('section').all()){const label=await section.locator('h2').textContent();await section.screenshot({path:`captures/palettes/${label.replaceAll(' / ','-')}.png`});}await page.screenshot({path:'captures/palettes/all-habitats.png',fullPage:true});assert.deepEqual(errors,[]);console.log(JSON.stringify({palettes:9,roles:3,images:27,errors}));}finally{await browser.close();}

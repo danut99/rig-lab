@@ -1,6 +1,49 @@
 {
   "models": [
     {
+      "id": "azure-warrior",
+      "name": "Azure Warrior",
+      "skeleton": "models/azure-warrior/animated.json",
+      "atlas": "models/azure-warrior/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/azure-warrior/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Războinic cu armură și sabie.",
+      "explanation": "Aceeași anatomie și aceleași mișcări ca șamanul, cu piele albastră, armură metalică, mantie roșie și sabie.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu sabia",
+          "duration": 2.1,
+          "loop": false
+        }
+      ]
+    },
+    {
       "id": "verdant-shaman",
       "name": "Verdant Shaman",
       "skeleton": "models/verdant-shaman/animated.json",
@@ -21,7 +64,7 @@
         ]
       },
       "description": "Original reference artwork, preserved in its exact resting pose.",
-      "explanation": "A continuous weighted mesh preserves the painted anatomy. Separate staff follows the gripping hand. Breathing, alternating leg joints and a staff swing move the whole character.",
+      "explanation": "Larger alternating steps suit the broad feet and bent legs. The body shifts with each step, while the head, tail and staff move together. Full-body breathing and the accepted staff attack are also available.",
       "animations": [
         {
           "name": "idle",
@@ -42,6 +85,1291 @@
           "loop": false
         }
       ]
+    },
+    {
+      "id": "jade-protector",
+      "name": "Jade Protector",
+      "skeleton": "models/jade-protector/animated.json",
+      "atlas": "models/jade-protector/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/jade-protector/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Protector cu armură grea și scut.",
+      "explanation": "Aceeași anatomie și aceleași mișcări ca șamanul, cu piele verde de jad, armură argintie, ținută bleumarin și scut.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitură cu scutul",
+          "duration": 2.1,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "fire-shaman",
+      "name": "Șaman de foc",
+      "skeleton": "models/fire-shaman/animated.json",
+      "atlas": "models/fire-shaman/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/fire-shaman/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Șaman de foc — paletă pentru habitatul de lavă.",
+      "explanation": "Piele roșie, pete de obsidian și accente de lavă. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Breathing",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Walking",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Staff attack",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "verdant-shaman",
+      "palette": "fire",
+      "paletteLabel": "Foc / Lavă"
+    },
+    {
+      "id": "fire-warrior",
+      "name": "Războinic de foc",
+      "skeleton": "models/fire-warrior/animated.json",
+      "atlas": "models/fire-warrior/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/fire-warrior/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Războinic de foc — paletă pentru habitatul de lavă.",
+      "explanation": "Piele roșie, pete de obsidian și accente de lavă. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu sabia",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "azure-warrior",
+      "palette": "fire",
+      "paletteLabel": "Foc / Lavă"
+    },
+    {
+      "id": "fire-protector",
+      "name": "Protector de foc",
+      "skeleton": "models/fire-protector/animated.json",
+      "atlas": "models/fire-protector/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/fire-protector/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Protector de foc — paletă pentru habitatul de lavă.",
+      "explanation": "Piele roșie, pete de obsidian și accente de lavă. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitură cu scutul",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "jade-protector",
+      "palette": "fire",
+      "paletteLabel": "Foc / Lavă"
+    },
+    {
+      "id": "ice-shaman",
+      "name": "Șaman · Gheață",
+      "skeleton": "models/ice-shaman/animated.json",
+      "atlas": "models/ice-shaman/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/ice-shaman/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Șaman — habitat gheață.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Breathing",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Walking",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Staff attack",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "verdant-shaman",
+      "palette": "ice",
+      "paletteLabel": "Gheață"
+    },
+    {
+      "id": "ice-warrior",
+      "name": "Războinic · Gheață",
+      "skeleton": "models/ice-warrior/animated.json",
+      "atlas": "models/ice-warrior/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/ice-warrior/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Războinic — habitat gheață.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu sabia",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "azure-warrior",
+      "palette": "ice",
+      "paletteLabel": "Gheață"
+    },
+    {
+      "id": "ice-protector",
+      "name": "Protector · Gheață",
+      "skeleton": "models/ice-protector/animated.json",
+      "atlas": "models/ice-protector/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/ice-protector/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Protector — habitat gheață.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitură cu scutul",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "jade-protector",
+      "palette": "ice",
+      "paletteLabel": "Gheață"
+    },
+    {
+      "id": "water-shaman",
+      "name": "Șaman · Apă",
+      "skeleton": "models/water-shaman/animated.json",
+      "atlas": "models/water-shaman/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/water-shaman/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Șaman — habitat apă.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Breathing",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Walking",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Staff attack",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "verdant-shaman",
+      "palette": "water",
+      "paletteLabel": "Apă"
+    },
+    {
+      "id": "water-warrior",
+      "name": "Războinic · Apă",
+      "skeleton": "models/water-warrior/animated.json",
+      "atlas": "models/water-warrior/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/water-warrior/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Războinic — habitat apă.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu sabia",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "azure-warrior",
+      "palette": "water",
+      "paletteLabel": "Apă"
+    },
+    {
+      "id": "water-protector",
+      "name": "Protector · Apă",
+      "skeleton": "models/water-protector/animated.json",
+      "atlas": "models/water-protector/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/water-protector/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Protector — habitat apă.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitură cu scutul",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "jade-protector",
+      "palette": "water",
+      "paletteLabel": "Apă"
+    },
+    {
+      "id": "earth-shaman",
+      "name": "Șaman · Pământ",
+      "skeleton": "models/earth-shaman/animated.json",
+      "atlas": "models/earth-shaman/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/earth-shaman/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Șaman — habitat pământ.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Breathing",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Walking",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Staff attack",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "verdant-shaman",
+      "palette": "earth",
+      "paletteLabel": "Pământ"
+    },
+    {
+      "id": "earth-warrior",
+      "name": "Războinic · Pământ",
+      "skeleton": "models/earth-warrior/animated.json",
+      "atlas": "models/earth-warrior/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/earth-warrior/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Războinic — habitat pământ.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu sabia",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "azure-warrior",
+      "palette": "earth",
+      "paletteLabel": "Pământ"
+    },
+    {
+      "id": "earth-protector",
+      "name": "Protector · Pământ",
+      "skeleton": "models/earth-protector/animated.json",
+      "atlas": "models/earth-protector/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/earth-protector/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Protector — habitat pământ.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitură cu scutul",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "jade-protector",
+      "palette": "earth",
+      "paletteLabel": "Pământ"
+    },
+    {
+      "id": "lightning-shaman",
+      "name": "Șaman · Fulger",
+      "skeleton": "models/lightning-shaman/animated.json",
+      "atlas": "models/lightning-shaman/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/lightning-shaman/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Șaman — habitat fulger.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Breathing",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Walking",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Staff attack",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "verdant-shaman",
+      "palette": "lightning",
+      "paletteLabel": "Fulger"
+    },
+    {
+      "id": "lightning-warrior",
+      "name": "Războinic · Fulger",
+      "skeleton": "models/lightning-warrior/animated.json",
+      "atlas": "models/lightning-warrior/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/lightning-warrior/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Războinic — habitat fulger.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu sabia",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "azure-warrior",
+      "palette": "lightning",
+      "paletteLabel": "Fulger"
+    },
+    {
+      "id": "lightning-protector",
+      "name": "Protector · Fulger",
+      "skeleton": "models/lightning-protector/animated.json",
+      "atlas": "models/lightning-protector/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/lightning-protector/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Protector — habitat fulger.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitură cu scutul",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "jade-protector",
+      "palette": "lightning",
+      "paletteLabel": "Fulger"
+    },
+    {
+      "id": "shadow-shaman",
+      "name": "Șaman · Umbră",
+      "skeleton": "models/shadow-shaman/animated.json",
+      "atlas": "models/shadow-shaman/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/shadow-shaman/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Șaman — habitat umbră.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Breathing",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Walking",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Staff attack",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "verdant-shaman",
+      "palette": "shadow",
+      "paletteLabel": "Umbră"
+    },
+    {
+      "id": "shadow-warrior",
+      "name": "Războinic · Umbră",
+      "skeleton": "models/shadow-warrior/animated.json",
+      "atlas": "models/shadow-warrior/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/shadow-warrior/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Războinic — habitat umbră.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu sabia",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "azure-warrior",
+      "palette": "shadow",
+      "paletteLabel": "Umbră"
+    },
+    {
+      "id": "shadow-protector",
+      "name": "Protector · Umbră",
+      "skeleton": "models/shadow-protector/animated.json",
+      "atlas": "models/shadow-protector/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/shadow-protector/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Protector — habitat umbră.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitură cu scutul",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "jade-protector",
+      "palette": "shadow",
+      "paletteLabel": "Umbră"
+    },
+    {
+      "id": "air-shaman",
+      "name": "Șaman · Aer",
+      "skeleton": "models/air-shaman/animated.json",
+      "atlas": "models/air-shaman/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/air-shaman/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Șaman — habitat aer.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Breathing",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Walking",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Staff attack",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "verdant-shaman",
+      "palette": "air",
+      "paletteLabel": "Aer"
+    },
+    {
+      "id": "air-warrior",
+      "name": "Războinic · Aer",
+      "skeleton": "models/air-warrior/animated.json",
+      "atlas": "models/air-warrior/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/air-warrior/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Războinic — habitat aer.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu sabia",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "azure-warrior",
+      "palette": "air",
+      "paletteLabel": "Aer"
+    },
+    {
+      "id": "air-protector",
+      "name": "Protector · Aer",
+      "skeleton": "models/air-protector/animated.json",
+      "atlas": "models/air-protector/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/air-protector/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Protector — habitat aer.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitură cu scutul",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "jade-protector",
+      "palette": "air",
+      "paletteLabel": "Aer"
+    },
+    {
+      "id": "crystal-shaman",
+      "name": "Șaman · Cristal",
+      "skeleton": "models/crystal-shaman/animated.json",
+      "atlas": "models/crystal-shaman/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/crystal-shaman/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Șaman — habitat cristal.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Breathing",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Walking",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Staff attack",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "verdant-shaman",
+      "palette": "crystal",
+      "paletteLabel": "Cristal"
+    },
+    {
+      "id": "crystal-warrior",
+      "name": "Războinic · Cristal",
+      "skeleton": "models/crystal-warrior/animated.json",
+      "atlas": "models/crystal-warrior/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/crystal-warrior/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Războinic — habitat cristal.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu sabia",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "azure-warrior",
+      "palette": "crystal",
+      "paletteLabel": "Cristal"
+    },
+    {
+      "id": "crystal-protector",
+      "name": "Protector · Cristal",
+      "skeleton": "models/crystal-protector/animated.json",
+      "atlas": "models/crystal-protector/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/crystal-protector/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Protector — habitat cristal.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitură cu scutul",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "jade-protector",
+      "palette": "crystal",
+      "paletteLabel": "Cristal"
+    },
+    {
+      "id": "nature-shaman",
+      "name": "Șaman · Natură",
+      "skeleton": "models/nature-shaman/animated.json",
+      "atlas": "models/nature-shaman/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/nature-shaman/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Șaman — habitat natură.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Breathing",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Walking",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Staff attack",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "verdant-shaman",
+      "palette": "nature",
+      "paletteLabel": "Natură"
+    },
+    {
+      "id": "nature-warrior",
+      "name": "Războinic · Natură",
+      "skeleton": "models/nature-warrior/animated.json",
+      "atlas": "models/nature-warrior/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/nature-warrior/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Războinic — habitat natură.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Atac cu sabia",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "azure-warrior",
+      "palette": "nature",
+      "paletteLabel": "Natură"
+    },
+    {
+      "id": "nature-protector",
+      "name": "Protector · Natură",
+      "skeleton": "models/nature-protector/animated.json",
+      "atlas": "models/nature-protector/rig.atlas",
+      "bounds": {
+        "x": -687,
+        "y": -90,
+        "width": 1374,
+        "height": 1434
+      },
+      "reference": {
+        "image": "models/nature-protector/reference.png",
+        "width": 1254,
+        "height": 1254,
+        "origin": [
+          627,
+          1254
+        ]
+      },
+      "description": "Protector — habitat natură.",
+      "explanation": "Culori inspirate din oul acestui habitat. Scheletul, contururile pieselor și toate cele trei animații sunt păstrate.",
+      "animations": [
+        {
+          "name": "idle",
+          "label": "Respirație",
+          "duration": 4,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "label": "Mers",
+          "duration": 2.2,
+          "loop": true
+        },
+        {
+          "name": "attack",
+          "label": "Lovitură cu scutul",
+          "duration": 2.1,
+          "loop": false
+        }
+      ],
+      "baseSpecies": "jade-protector",
+      "palette": "nature",
+      "paletteLabel": "Natură"
     }
   ]
 }

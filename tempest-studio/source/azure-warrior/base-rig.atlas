@@ -1,0 +1,116 @@
+staff.png
+size: 1254,1254
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+staff
+  rotate: false
+  xy: 0,0
+  size: 1254,1254
+  orig: 1254,1254
+  offset: 0,0
+  index: -1
+
+art.png
+size: 1254,1254
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+art
+  rotate: false
+  xy: 0,0
+  size: 1254,1254
+  orig: 1254,1254
+  offset: 0,0
+  index: -1
+
+clean-art.png
+size: 1254,1254
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clean-art
+  rotate: false
+  xy: 0,0
+  size: 1254,1254
+  orig: 1254,1254
+  offset: 0,0
+  index: -1
+
+clean-staff.png
+size: 1254,1254
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clean-staff
+  rotate: false
+  xy: 0,0
+  size: 1254,1254
+  orig: 1254,1254
+  offset: 0,0
+  index: -1
+
+walk-back.png
+size: 529,114
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+walk-back
+  rotate: false
+  xy: 0,0
+  size: 529,114
+  orig: 529,114
+  offset: 0,0
+  index: -1
+
+walk-staff.png
+size: 270,1107
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+walk-staff
+  rotate: false
+  xy: 0,0
+  size: 270,1107
+  orig: 270,1107
+  offset: 0,0
+  index: -1
+
+walk-body.png
+size: 1146,1063
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+walk-body
+  rotate: false
+  xy: 0,0
+  size: 1146,1063
+  orig: 1146,1063
+  offset: 0,0
+  index: -1
+
+walk-farLeg.png
+size: 286,304
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+walk-farLeg
+  rotate: false
+  xy: 0,0
+  size: 286,304
+  orig: 286,304
+  offset: 0,0
+  index: -1
+
+walk-nearLeg.png
+size: 345,328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+walk-nearLeg
+  rotate: false
+  xy: 0,0
+  size: 345,328
+  orig: 345,328
+  offset: 0,0
+  index: -1

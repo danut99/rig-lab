@@ -3,5 +3,8 @@
   "meshes": 2,
   "vertices": 5235,
   "maxSetupError": 5.684341886080801e-13,
+  "warnings": [
+    "Oasele diferă de accepted-attack.json: verificarea atacului acceptat a fost sărită."
+  ],
   "source": "e86bacb3-efcf-4384-8a28-ac2f5c94dba7.png"
 }

@@ -1,0 +1,194 @@
+[
+  {
+    "previous": "idle",
+    "time": 0,
+    "error": 0.000055014854060370574,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "idle",
+    "time": 0.5,
+    "error": 0.000053402490681095915,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "idle",
+    "time": 1,
+    "error": 0.00005112258286365216,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "idle",
+    "time": 1.5,
+    "error": 0.00005257585955352997,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "idle",
+    "time": 2,
+    "error": 0.000055844162220299194,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "idle",
+    "time": 2.5,
+    "error": 0.00005342708652425489,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "idle",
+    "time": 3,
+    "error": 0.00005402291921429407,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "idle",
+    "time": 3.5,
+    "error": 0.00005397430904237122,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "walk",
+    "time": 0,
+    "error": 0.000055014854060370574,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "walk",
+    "time": 0.5,
+    "error": 0.000053402490681095915,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "walk",
+    "time": 1,
+    "error": 0.00005112258286365216,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "walk",
+    "time": 1.5,
+    "error": 0.00005257585955352997,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "walk",
+    "time": 2,
+    "error": 0.000055844162220299194,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "walk",
+    "time": 2.5,
+    "error": 0.00005342708652425489,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "walk",
+    "time": 3,
+    "error": 0.00005402291921429407,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "walk",
+    "time": 3.5,
+    "error": 0.00005397430904237122,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "attack",
+    "time": 0,
+    "error": 0.000055014854060370574,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "attack",
+    "time": 0.5,
+    "error": 0.000053402490681095915,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "attack",
+    "time": 1,
+    "error": 0.00005112258286365216,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "attack",
+    "time": 1.5,
+    "error": 0.00005257585955352997,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "attack",
+    "time": 2,
+    "error": 0.000055844162220299194,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "attack",
+    "time": 2.5,
+    "error": 0.00005342708652425489,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "attack",
+    "time": 3,
+    "error": 0.00005402291921429407,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  },
+  {
+    "previous": "attack",
+    "time": 3.5,
+    "error": 0.00005397430904237122,
+    "count": 298,
+    "attachment": "breathing-art",
+    "visible": 2
+  }
+]

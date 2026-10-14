@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ice-shaman",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "ice-warrior",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "ice-protector",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "water-shaman",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "water-warrior",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "water-protector",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "earth-shaman",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "earth-warrior",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "earth-protector",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "lightning-shaman",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "lightning-warrior",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "lightning-protector",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "shadow-shaman",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "shadow-warrior",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "shadow-protector",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "air-shaman",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "air-warrior",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "air-protector",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "crystal-shaman",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "crystal-warrior",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "crystal-protector",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "nature-shaman",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "nature-warrior",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "nature-protector",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  }
+]

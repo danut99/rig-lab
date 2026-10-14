@@ -1,0 +1,259 @@
+{
+  "space": {
+    "width": 1280,
+    "height": 1280,
+    "note": "Coordonate pe referință scalată la 1280 (x: 0..1280 stânga→dreapta, y: 0..1280 sus→jos). Oasele fără custom sunt folosite de cod după nume: li se pot muta punctele și părintele, nu numele."
+  },
+  "bones": [
+    {
+      "name": "body",
+      "parent": "root",
+      "from": [
+        650,
+        850
+      ],
+      "to": [
+        750,
+        850
+      ]
+    },
+    {
+      "name": "chest",
+      "parent": "body",
+      "from": [
+        620,
+        616
+      ],
+      "to": [
+        895,
+        608
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "chest",
+      "from": [
+        780,
+        530
+      ],
+      "to": [
+        880,
+        530
+      ]
+    },
+    {
+      "name": "tail1",
+      "parent": "body",
+      "from": [
+        435,
+        920
+      ],
+      "to": [
+        275,
+        950
+      ]
+    },
+    {
+      "name": "tail2",
+      "parent": "tail1",
+      "from": [
+        279,
+        950
+      ],
+      "to": [
+        129,
+        850
+      ]
+    },
+    {
+      "name": "tail3",
+      "parent": "tail2",
+      "from": [
+        125,
+        850
+      ],
+      "to": [
+        30,
+        800
+      ]
+    },
+    {
+      "name": "nearLegUpper",
+      "parent": "body",
+      "from": [
+        471,
+        1022
+      ],
+      "to": [
+        440,
+        1065
+      ],
+      "keys": {
+        "attack": [],
+        "walk": [
+          {
+            "time": 1.45,
+            "angle": 1.4
+          }
+        ]
+      }
+    },
+    {
+      "name": "nearLegLower",
+      "parent": "nearLegUpper",
+      "from": [
+        485,
+        1067
+      ],
+      "to": [
+        455,
+        1150
+      ]
+    },
+    {
+      "name": "nearFoot",
+      "parent": "nearLegLower",
+      "from": [
+        455,
+        1150
+      ],
+      "to": [
+        545,
+        1190
+      ]
+    },
+    {
+      "name": "farLegUpper",
+      "parent": "body",
+      "from": [
+        835,
+        960
+      ],
+      "to": [
+        790,
+        1070
+      ]
+    },
+    {
+      "name": "farLegLower",
+      "parent": "farLegUpper",
+      "from": [
+        790,
+        1070
+      ],
+      "to": [
+        860,
+        1140
+      ]
+    },
+    {
+      "name": "farFoot",
+      "parent": "farLegLower",
+      "from": [
+        860,
+        1140
+      ],
+      "to": [
+        935,
+        1180
+      ]
+    },
+    {
+      "name": "farUpper",
+      "parent": "chest",
+      "from": [
+        415,
+        655
+      ],
+      "to": [
+        445,
+        730
+      ]
+    },
+    {
+      "name": "farHand",
+      "parent": "farUpper",
+      "from": [
+        445,
+        730
+      ],
+      "to": [
+        570,
+        760
+      ]
+    },
+    {
+      "name": "nearUpper",
+      "parent": "chest",
+      "from": [
+        945,
+        650
+      ],
+      "to": [
+        980,
+        735
+      ]
+    },
+    {
+      "name": "nearForearm",
+      "parent": "nearUpper",
+      "from": [
+        980,
+        735
+      ],
+      "to": [
+        1080,
+        690
+      ]
+    },
+    {
+      "name": "nearHand",
+      "parent": "nearForearm",
+      "from": [
+        1080,
+        690
+      ],
+      "to": [
+        1110,
+        690
+      ]
+    },
+    {
+      "name": "staff",
+      "parent": "nearHand",
+      "from": [
+        1080,
+        690
+      ],
+      "to": [
+        1187,
+        210
+      ]
+    },
+    {
+      "name": "poncho",
+      "parent": "chest",
+      "from": [
+        751,
+        739
+      ],
+      "to": [
+        917,
+        739
+      ]
+    },
+    {
+      "name": "charms",
+      "parent": "body",
+      "from": [
+        490,
+        855
+      ],
+      "to": [
+        490,
+        925
+      ]
+    }
+  ],
+  "parts": {}
+}

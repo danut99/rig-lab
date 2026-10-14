@@ -1,0 +1,23 @@
+[
+  {
+    "id": "fire-shaman",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "fire-warrior",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  },
+  {
+    "id": "fire-protector",
+    "exactRig": true,
+    "animations": 3,
+    "framesChecked": 24,
+    "errors": []
+  }
+]

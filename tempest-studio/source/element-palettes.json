@@ -1,0 +1,194 @@
+[
+  {
+    "id": "ice-shaman",
+    "base": "verdant-shaman",
+    "name": "Șaman · Gheață",
+    "palette": "ice",
+    "paletteLabel": "Gheață",
+    "description": "Șaman — habitat gheață."
+  },
+  {
+    "id": "ice-warrior",
+    "base": "azure-warrior",
+    "name": "Războinic · Gheață",
+    "palette": "ice",
+    "paletteLabel": "Gheață",
+    "description": "Războinic — habitat gheață."
+  },
+  {
+    "id": "ice-protector",
+    "base": "jade-protector",
+    "name": "Protector · Gheață",
+    "palette": "ice",
+    "paletteLabel": "Gheață",
+    "description": "Protector — habitat gheață."
+  },
+  {
+    "id": "water-shaman",
+    "base": "verdant-shaman",
+    "name": "Șaman · Apă",
+    "palette": "water",
+    "paletteLabel": "Apă",
+    "description": "Șaman — habitat apă."
+  },
+  {
+    "id": "water-warrior",
+    "base": "azure-warrior",
+    "name": "Războinic · Apă",
+    "palette": "water",
+    "paletteLabel": "Apă",
+    "description": "Războinic — habitat apă."
+  },
+  {
+    "id": "water-protector",
+    "base": "jade-protector",
+    "name": "Protector · Apă",
+    "palette": "water",
+    "paletteLabel": "Apă",
+    "description": "Protector — habitat apă."
+  },
+  {
+    "id": "earth-shaman",
+    "base": "verdant-shaman",
+    "name": "Șaman · Pământ",
+    "palette": "earth",
+    "paletteLabel": "Pământ",
+    "description": "Șaman — habitat pământ."
+  },
+  {
+    "id": "earth-warrior",
+    "base": "azure-warrior",
+    "name": "Războinic · Pământ",
+    "palette": "earth",
+    "paletteLabel": "Pământ",
+    "description": "Războinic — habitat pământ."
+  },
+  {
+    "id": "earth-protector",
+    "base": "jade-protector",
+    "name": "Protector · Pământ",
+    "palette": "earth",
+    "paletteLabel": "Pământ",
+    "description": "Protector — habitat pământ."
+  },
+  {
+    "id": "lightning-shaman",
+    "base": "verdant-shaman",
+    "name": "Șaman · Fulger",
+    "palette": "lightning",
+    "paletteLabel": "Fulger",
+    "description": "Șaman — habitat fulger."
+  },
+  {
+    "id": "lightning-warrior",
+    "base": "azure-warrior",
+    "name": "Războinic · Fulger",
+    "palette": "lightning",
+    "paletteLabel": "Fulger",
+    "description": "Războinic — habitat fulger."
+  },
+  {
+    "id": "lightning-protector",
+    "base": "jade-protector",
+    "name": "Protector · Fulger",
+    "palette": "lightning",
+    "paletteLabel": "Fulger",
+    "description": "Protector — habitat fulger."
+  },
+  {
+    "id": "shadow-shaman",
+    "base": "verdant-shaman",
+    "name": "Șaman · Umbră",
+    "palette": "shadow",
+    "paletteLabel": "Umbră",
+    "description": "Șaman — habitat umbră."
+  },
+  {
+    "id": "shadow-warrior",
+    "base": "azure-warrior",
+    "name": "Războinic · Umbră",
+    "palette": "shadow",
+    "paletteLabel": "Umbră",
+    "description": "Războinic — habitat umbră."
+  },
+  {
+    "id": "shadow-protector",
+    "base": "jade-protector",
+    "name": "Protector · Umbră",
+    "palette": "shadow",
+    "paletteLabel": "Umbră",
+    "description": "Protector — habitat umbră."
+  },
+  {
+    "id": "air-shaman",
+    "base": "verdant-shaman",
+    "name": "Șaman · Aer",
+    "palette": "air",
+    "paletteLabel": "Aer",
+    "description": "Șaman — habitat aer."
+  },
+  {
+    "id": "air-warrior",
+    "base": "azure-warrior",
+    "name": "Războinic · Aer",
+    "palette": "air",
+    "paletteLabel": "Aer",
+    "description": "Războinic — habitat aer."
+  },
+  {
+    "id": "air-protector",
+    "base": "jade-protector",
+    "name": "Protector · Aer",
+    "palette": "air",
+    "paletteLabel": "Aer",
+    "description": "Protector — habitat aer."
+  },
+  {
+    "id": "crystal-shaman",
+    "base": "verdant-shaman",
+    "name": "Șaman · Cristal",
+    "palette": "crystal",
+    "paletteLabel": "Cristal",
+    "description": "Șaman — habitat cristal."
+  },
+  {
+    "id": "crystal-warrior",
+    "base": "azure-warrior",
+    "name": "Războinic · Cristal",
+    "palette": "crystal",
+    "paletteLabel": "Cristal",
+    "description": "Războinic — habitat cristal."
+  },
+  {
+    "id": "crystal-protector",
+    "base": "jade-protector",
+    "name": "Protector · Cristal",
+    "palette": "crystal",
+    "paletteLabel": "Cristal",
+    "description": "Protector — habitat cristal."
+  },
+  {
+    "id": "nature-shaman",
+    "base": "verdant-shaman",
+    "name": "Șaman · Natură",
+    "palette": "nature",
+    "paletteLabel": "Natură",
+    "description": "Șaman — habitat natură."
+  },
+  {
+    "id": "nature-warrior",
+    "base": "azure-warrior",
+    "name": "Războinic · Natură",
+    "palette": "nature",
+    "paletteLabel": "Natură",
+    "description": "Războinic — habitat natură."
+  },
+  {
+    "id": "nature-protector",
+    "base": "jade-protector",
+    "name": "Protector · Natură",
+    "palette": "nature",
+    "paletteLabel": "Natură",
+    "description": "Protector — habitat natură."
+  }
+]

@@ -1,22 +1,24 @@
 {
+  "scope": "full",
   "sourcePixelsChanged": 0,
+  "pieces": [],
   "bones": 27,
-  "meshes": 10,
+  "meshes": 6,
   "results": [
     {
       "name": "idle",
       "frames": 241,
-      "minAreaRatio": 0.7019528988735898
+      "minAreaRatio": 0.6997812032190844
     },
     {
       "name": "walk",
       "frames": 133,
-      "minAreaRatio": 0.7617312892025324
+      "minAreaRatio": 0.26981711655552937
     },
     {
       "name": "attack",
       "frames": 127,
-      "minAreaRatio": 0.2346038317144835
+      "minAreaRatio": 0.09777326962655088
     }
   ]
 }
